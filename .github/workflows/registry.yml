@@ -24,9 +24,9 @@ jobs:
         run: |
           set -euo pipefail
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python3 scripts/build_registry.py
+            python3 scripts/build_registry_from_config.py
           else
-            python3 scripts/reconcile_registry.py
+            python3 scripts/reconcile_registry_from_config.py
           fi
           python3 scripts/build_graph_latest.py
       - name: Commit registry changes
