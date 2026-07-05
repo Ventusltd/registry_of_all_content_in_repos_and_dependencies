@@ -1,6 +1,6 @@
 {
-  "authoritative_version": 1,
-  "json_path": "registry/registry_v0001.json",
+  "authoritative_version": 2,
+  "json_path": "registry/registry_v0002.json",
   "md_path": "registry/registry.md",
-  "updated_at": "2026-07-05T19:39:26Z"
+  "updated_at": "2026-07-05T19:41:30Z"
 }

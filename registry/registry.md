@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0001`
-Generated at: `2026-07-05T19:39:26Z`
+Authoritative version: `0002`
+Generated at: `2026-07-05T19:41:30Z`
 
 ## Totals
 
 - Repositories: 6
-- Files: 2934
-- Reachable: 2934
+- Files: 2937
+- Reachable: 2937
 - Unreachable: 0
 
 ## Boot sequence
@@ -2955,7 +2955,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 7
+File count: 10
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -2963,7 +2963,10 @@ File count: 7
 | verified | document | [ai_deep_studies/GLOBALGRID2050_FEDERATION_AUDIT-FIRST_FILE_REPORT_AND_KERNEL_REGISTRY.md.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/ai_deep_studies/GLOBALGRID2050_FEDERATION_AUDIT-FIRST_FILE_REPORT_AND_KERNEL_REGISTRY.md.md) | repository content |
 | verified | document | [ai_deep_studies/README.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/ai_deep_studies/README.md) | human entry point |
 | verified | document | [README.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/README.md) | human entry point |
+| verified | json | [registry/latest.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/latest.json) | kernel registry artifact |
 | verified | document | [registry/README.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/README.md) | human entry point |
+| verified | document | [registry/registry.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry.md) | kernel registry artifact |
+| verified | json | [registry/registry_v0001.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0001.json) | kernel registry artifact |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |
 | verified | code | [scripts/reconcile_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/reconcile_registry.py) | builder or automation script |
 
