@@ -1,0 +1,42 @@
+name: Build kernel registry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kernel-registry
+  cancel-in-progress: false
+
+jobs:
+  registry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run registry builder or reconciler
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python3 scripts/build_registry.py
+          else
+            python3 scripts/reconcile_registry.py
+          fi
+      - name: Commit registry changes
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- registry; then
+            echo "No registry changes to commit"
+            exit 0
+          fi
+          git add registry
+          git commit -m "Update kernel registry"
+          git push
