@@ -1,0 +1,24 @@
+{
+  "schema_version": "globalgrid2050.registry_scope.v1",
+  "owner": "Ventusltd",
+  "repos": [
+    {"name": "data-federation-map-for-globalgrid2050-all-repos", "role": "federation node and edge control ledger"},
+    {"name": "data-gb-electricity", "role": "GB electricity time-series Parquet data layer"},
+    {"name": "data-interconnectors", "role": "interconnector data repository"},
+    {"name": "data_uk_dno_and_tso", "role": "UK and Ireland DNO/TSO declared data spine"},
+    {"name": "gb-electricity-ui", "role": "GB electricity user interface"},
+    {"name": "globalgrid2050", "role": "retiring monolith, atlas and application source"},
+    {"name": "globalgrid2050-hompage", "role": "homepage and governance context repository"},
+    {"name": "pandapower", "role": "vendor or forked power-system analysis dependency"},
+    {"name": "pv-arc-protection-circuit", "role": "PV arc protection engineering research"},
+    {"name": "registry_of_all_content_in_repos_and_dependencies", "role": "authoritative kernel registry of repo contents and dependencies"},
+    {"name": "solar-repowering-whitepaper", "role": "solar repowering research and publication repository"},
+    {"name": "Solar-PV-Hybrid-and-off-grid", "role": "solar hybrid and off-grid research repository"},
+    {"name": "spiders", "role": "spider species lab and topology viewers"},
+    {"name": "youengineer-code-review", "role": "code review and engineering education repository"}
+  ],
+  "unresolved_candidates": [
+    {"name": "crm", "state": "not_reachable_or_private"},
+    {"name": "cable_selection", "state": "not_reachable_or_private"}
+  ]
+}
