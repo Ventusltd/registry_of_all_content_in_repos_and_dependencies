@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0007`
-Generated at: `2026-07-05T22:21:05Z`
+Authoritative version: `0008`
+Generated at: `2026-07-05T22:49:34Z`
 
 ## Totals
 
 - Repositories: 14
-- Files: 4462
-- Reachable: 4462
+- Files: 4464
+- Reachable: 4464
 - Unreachable: 0
 
 ## Boot sequence
@@ -4446,7 +4446,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 23
+File count: 25
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -4467,12 +4467,14 @@ File count: 23
 | verified | json | [registry/registry_v0004.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0004.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0005.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0005.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0006.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0006.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0007.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0007.json) | kernel registry artifact |
 | verified | code | [scripts/build_graph_latest.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_graph_latest.py) | builder or automation script |
 | verified | code | [scripts/build_kernel.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_kernel.py) | builder or automation script |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |
 | verified | code | [scripts/build_registry_from_config.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry_from_config.py) | builder or automation script |
 | verified | code | [scripts/reconcile_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/reconcile_registry.py) | builder or automation script |
 | verified | code | [scripts/reconcile_registry_from_config.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/reconcile_registry_from_config.py) | builder or automation script |
+| verified | code | [scripts/validate_kernel_outputs.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/validate_kernel_outputs.py) | builder or automation script |
 
 ### [Solar-PV-Hybrid-and-off-grid](https://github.com/Ventusltd/Solar-PV-Hybrid-and-off-grid)
 
