@@ -29,6 +29,7 @@ jobs:
             python3 scripts/reconcile_registry_from_config.py
           fi
           python3 scripts/build_graph_latest.py
+          python3 scripts/build_kernel.py
       - name: Commit registry changes
         run: |
           set -euo pipefail
