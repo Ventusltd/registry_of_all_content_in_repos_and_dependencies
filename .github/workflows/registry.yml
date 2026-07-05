@@ -28,6 +28,7 @@ jobs:
           else
             python3 scripts/reconcile_registry.py
           fi
+          python3 scripts/build_graph_latest.py
       - name: Commit registry changes
         run: |
           set -euo pipefail
