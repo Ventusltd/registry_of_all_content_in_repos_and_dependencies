@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0005`
-Generated at: `2026-07-05T21:49:54Z`
+Authoritative version: `0006`
+Generated at: `2026-07-05T21:51:39Z`
 
 ## Totals
 
 - Repositories: 14
-- Files: 4458
-- Reachable: 4458
+- Files: 4461
+- Reachable: 4461
 - Unreachable: 0
 
 ## Boot sequence
@@ -4446,7 +4446,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 19
+File count: 22
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -4456,6 +4456,8 @@ File count: 19
 | verified | document | [ai_deep_studies/README.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/ai_deep_studies/README.md) | human entry point |
 | verified | json | [config/registry_repos.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/config/registry_repos.json) | repository content |
 | verified | document | [README.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/README.md) | human entry point |
+| verified | json | [registry/graph_latest.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/graph_latest.json) | kernel registry artifact |
+| verified | json | [registry/kernel.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/kernel.json) | kernel registry artifact |
 | verified | json | [registry/latest.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/latest.json) | kernel registry artifact |
 | verified | document | [registry/README.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/README.md) | human entry point |
 | verified | document | [registry/registry.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry.md) | kernel registry artifact |
@@ -4463,6 +4465,7 @@ File count: 19
 | verified | json | [registry/registry_v0002.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0002.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0003.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0003.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0004.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0004.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0005.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0005.json) | kernel registry artifact |
 | verified | code | [scripts/build_graph_latest.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_graph_latest.py) | builder or automation script |
 | verified | code | [scripts/build_kernel.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_kernel.py) | builder or automation script |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |

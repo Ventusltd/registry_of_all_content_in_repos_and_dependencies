@@ -5,9 +5,9 @@
     "width": 4200
   },
   "dataSource": {
-    "generatedAt": "2026-07-05T21:49:54Z",
-    "jsonPath": "registry/registry_v0005.json",
-    "registryVersion": 5,
+    "generatedAt": "2026-07-05T21:51:39Z",
+    "jsonPath": "registry/registry_v0006.json",
+    "registryVersion": 6,
     "repo": "Ventusltd/registry_of_all_content_in_repos_and_dependencies"
   },
   "edgeTypes": {
@@ -294,6 +294,11 @@
     {
       "from": "repo::registry_of_all_content_in_repos_and_dependencies",
       "to": "file::registry_of_all_content_in_repos_and_dependencies::README.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "file::registry_of_all_content_in_repos_and_dependencies::registry/graph_latest.json",
       "type": "reference"
     },
     {
@@ -1063,7 +1068,7 @@
       "label": "registry_of_all_content_in_repos_and_dependencies",
       "layer": "data",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
-      "subtitle": "19 files \u00b7 main",
+      "subtitle": "22 files \u00b7 main",
       "x": 4060,
       "y": 300
     },
@@ -1088,6 +1093,16 @@
       "y": 1300
     },
     {
+      "id": "file::registry_of_all_content_in_repos_and_dependencies::registry/graph_latest.json",
+      "kind": "library",
+      "label": "graph_latest.json",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/graph_latest.json",
+      "subtitle": "kernel registry artifact",
+      "x": 4060,
+      "y": 1420
+    },
+    {
       "id": "file::registry_of_all_content_in_repos_and_dependencies::registry/latest.json",
       "kind": "library",
       "label": "latest.json",
@@ -1095,7 +1110,7 @@
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/latest.json",
       "subtitle": "kernel registry artifact",
       "x": 4060,
-      "y": 1420
+      "y": 1540
     },
     {
       "id": "repo::Solar-PV-Hybrid-and-off-grid",
