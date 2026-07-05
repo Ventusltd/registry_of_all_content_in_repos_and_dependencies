@@ -30,6 +30,7 @@ jobs:
           fi
           python3 scripts/build_graph_latest.py
           python3 scripts/build_kernel.py
+          python3 scripts/validate_kernel_outputs.py
       - name: Commit registry changes
         run: |
           set -euo pipefail
