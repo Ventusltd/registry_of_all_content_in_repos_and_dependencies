@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0002`
-Generated at: `2026-07-05T19:41:30Z`
+Authoritative version: `0003`
+Generated at: `2026-07-05T19:47:08Z`
 
 ## Totals
 
 - Repositories: 6
-- Files: 2937
-- Reachable: 2937
+- Files: 2938
+- Reachable: 2938
 - Unreachable: 0
 
 ## Boot sequence
@@ -2955,7 +2955,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 10
+File count: 11
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -2967,6 +2967,7 @@ File count: 10
 | verified | document | [registry/README.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/README.md) | human entry point |
 | verified | document | [registry/registry.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry.md) | kernel registry artifact |
 | verified | json | [registry/registry_v0001.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0001.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0002.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0002.json) | kernel registry artifact |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |
 | verified | code | [scripts/reconcile_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/reconcile_registry.py) | builder or automation script |
 
