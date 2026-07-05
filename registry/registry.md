@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0008`
-Generated at: `2026-07-05T22:49:34Z`
+Authoritative version: `0009`
+Generated at: `2026-07-05T22:51:14Z`
 
 ## Totals
 
 - Repositories: 14
-- Files: 4464
-- Reachable: 4464
+- Files: 4465
+- Reachable: 4465
 - Unreachable: 0
 
 ## Boot sequence
@@ -4446,7 +4446,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 25
+File count: 26
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -4468,6 +4468,7 @@ File count: 25
 | verified | json | [registry/registry_v0005.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0005.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0006.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0006.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0007.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0007.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0008.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0008.json) | kernel registry artifact |
 | verified | code | [scripts/build_graph_latest.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_graph_latest.py) | builder or automation script |
 | verified | code | [scripts/build_kernel.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_kernel.py) | builder or automation script |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |

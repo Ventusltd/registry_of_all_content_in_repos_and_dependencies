@@ -56,8 +56,8 @@
       "repo": "spiders"
     }
   ],
-  "generated_at": "2026-07-05T22:49:34Z",
-  "registry_version": 8,
+  "generated_at": "2026-07-05T22:51:14Z",
+  "registry_version": 9,
   "repos": [
     {
       "default_branch": "main",
@@ -2774,7 +2774,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 25,
+      "file_count": 26,
       "html_url": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
       "important_files": [
         {
@@ -3147,10 +3147,10 @@
     }
   ],
   "schema_version": "globalgrid2050.kernel_boot.v1",
-  "source_registry": "registry/registry_v0008.json",
+  "source_registry": "registry/registry_v0009.json",
   "totals": {
-    "file_count": 4464,
-    "reachable_count": 4464,
+    "file_count": 4465,
+    "reachable_count": 4465,
     "repo_count": 14,
     "unreachable_count": 0
   }
