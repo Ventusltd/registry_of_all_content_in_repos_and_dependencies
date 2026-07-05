@@ -7,7 +7,6 @@ registry.md from the JSON, and then updates latest.json only after validation.
 """
 from __future__ import annotations
 
-import base64
 import json
 import os
 import re
@@ -346,6 +345,8 @@ def write_registry(registry: dict[str, Any], version: int) -> None:
         "authoritative_version": version,
         "json_path": f"registry/registry_v{version:04d}.json",
         "md_path": "registry/registry.md",
+        "graph_path": "registry/graph_latest.json",
+        "kernel_path": "registry/kernel.json",
         "updated_at": registry["generated_at"],
     }
     (REGISTRY_DIR / "latest.json").write_text(json.dumps(latest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
