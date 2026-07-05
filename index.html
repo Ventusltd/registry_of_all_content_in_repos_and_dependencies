@@ -2,276 +2,179 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>GlobalGrid2050 Kernel Registry</title>
+<title>GlobalGrid2050 Registry</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root { color-scheme: dark; }
-  html { background:#000; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; min-height:100%; background:#000; }
   body {
-    background:#000;
     color:#fff;
     font-family:Courier, monospace;
-    padding:40px;
-    max-width:980px;
-    margin:0 auto;
-    font-size:20px;
-    line-height:1.6;
+    padding:28px;
+    font-size:16px;
+    line-height:1.55;
   }
-  h1 { margin:0 0 10px; font-size:34px; }
-  h2 { margin-top:36px; color:#00ffff; font-size:24px; }
-  a { color:#66ccff; text-decoration:none; }
+  a { color:#40e8ff; text-decoration:none; }
   a:hover { text-decoration:underline; }
-  .dev-status { color:#ff3333; font-weight:bold; font-size:16px; }
-  .muted { color:#aaa; }
-  .small { font-size:16px; }
-  .hero {
-    margin:16px 0 24px;
-    padding:16px 0;
-    border-top:1px solid #333;
-    border-bottom:1px solid #333;
+  .shell { max-width:1280px; margin:0 auto; }
+  .top { display:grid; grid-template-columns:1fr 360px; gap:18px; align-items:start; }
+  h1 { margin:0; font-size:34px; letter-spacing:.5px; }
+  .subtitle { color:#40e8ff; font-size:20px; margin:4px 0 18px; }
+  .muted { color:#b8b8b8; }
+  .green { color:#53ff4c; }
+  .orange { color:#ff9400; }
+  .purple { color:#bd65ff; }
+  .panel { border:1px solid #07545b; background:#020909; padding:18px; border-radius:4px; }
+  .buttons { display:flex; gap:10px; flex-wrap:wrap; margin-top:20px; }
+  .btn { border:1px solid #07545b; padding:10px 13px; background:#020909; color:#40e8ff; border-radius:4px; font-weight:bold; }
+  .status td { padding:3px 10px 3px 0; white-space:nowrap; }
+  .status .label { color:#d8d8d8; }
+  .status .value { color:#fff; }
+  .ok { color:#53ff4c; font-weight:bold; font-size:20px; }
+  .section-title { color:#40e8ff; margin:0 0 10px; font-size:20px; letter-spacing:.5px; }
+  .spider-panel { margin-top:18px; padding:16px; border:1px solid #07545b; background:#020909; border-radius:4px; }
+  .spider-head { display:flex; justify-content:space-between; gap:18px; align-items:flex-start; flex-wrap:wrap; }
+  .spider-wrap { position:relative; margin-top:6px; overflow:auto; border-top:1px solid #06383d; padding-top:10px; }
+  svg { width:100%; min-width:900px; height:auto; display:block; }
+  .wire { stroke:#777; stroke-width:1.4; fill:none; opacity:.85; }
+  .wire-cyan { stroke:#40e8ff; stroke-width:1.8; fill:none; opacity:.95; }
+  .node { cursor:pointer; }
+  .node circle { fill:#020909; stroke-width:2; filter:drop-shadow(0 0 4px rgba(64,232,255,.35)); }
+  .node text { font-family:Courier, monospace; pointer-events:none; }
+  .node .label { fill:#fff; font-size:14px; font-weight:bold; }
+  .node .sub { fill:#b8b8b8; font-size:11px; text-decoration:underline; }
+  .bios circle { stroke:#2fa7ff; }
+  .op circle { stroke:#bd65ff; }
+  .app circle { stroke:#63d92f; }
+  .data circle { stroke:#ff9400; }
+  .ext circle { stroke:#aaa; }
+  .legend { display:grid; grid-template-columns:repeat(5,auto); gap:10px 18px; font-size:14px; color:#ddd; margin-top:8px; }
+  .dot { display:inline-block; width:12px; height:12px; border-radius:50%; margin-right:6px; vertical-align:-1px; }
+  .explore { margin-top:18px; border:1px solid #07545b; padding:16px; display:grid; grid-template-columns:repeat(5,1fr); gap:18px; background:#020909; }
+  .explore h3 { margin:0 0 8px; font-size:18px; }
+  .explore ul { list-style:none; padding:0; margin:0; }
+  .explore li { margin:7px 0; }
+  .cards { margin-top:18px; display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+  .card { border:1px solid #07545b; padding:16px; background:#020909; min-height:130px; }
+  .card h3 { color:#40e8ff; margin:0 0 8px; }
+  .footer { margin-top:18px; display:flex; justify-content:space-between; gap:20px; border:1px solid #07545b; padding:14px; color:#bbb; background:#020909; }
+  code { color:#40e8ff; }
+  @media(max-width:900px){
+    body{padding:18px;font-size:15px}.top{grid-template-columns:1fr}.explore{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr}.footer{display:block}h1{font-size:28px}.subtitle{font-size:17px}
   }
-  .launch-flagship {
-    display:flex;
-    align-items:baseline;
-    gap:14px;
-    flex-wrap:wrap;
-    margin:10px 0 2px;
-    padding:12px 0;
-    border-bottom:1px solid #333;
-  }
-  .launch-flagship a {
-    color:#00ffff;
-    font-weight:bold;
-    font-size:28px;
-    line-height:1.15;
-  }
-  #gridSearch {
-    width:100%;
-    padding:12px;
-    background:#111;
-    color:white;
-    border:1px solid #444;
-    font-family:Courier, monospace;
-    font-size:18px;
-    margin-top:20px;
-    margin-bottom:18px;
-    box-sizing:border-box;
-  }
-  #gridSearch:focus { outline:none; border-color:#66ccff; }
-  details.area { border-bottom:1px solid #333; }
-  details.area > summary {
-    list-style:none;
-    cursor:pointer;
-    padding:14px 0;
-    color:#00ffff;
-    font-weight:bold;
-    letter-spacing:.5px;
-  }
-  details.area > summary::-webkit-details-marker { display:none; }
-  details.area > summary::before { content:"[+] "; color:#00ffff; }
-  details.area[open] > summary::before { content:"[−] "; }
-  ul.drawer { list-style:none; margin:0 0 10px; padding:0; }
-  ul.drawer li { padding:10px 0 10px 28px; border-top:1px solid #1c1c1c; }
-  .toplink { display:block; padding:14px 0; border-bottom:1px solid #333; }
-  .noresult { color:#888; padding:20px 0; }
-  .spider {
-    margin:28px 0;
-    border:1px solid #333;
-    background:#050505;
-    padding:20px;
-    overflow:hidden;
-  }
-  .spider svg { width:100%; height:auto; display:block; }
-  .node { fill:#050505; stroke:#00ffff; stroke-width:1.5; }
-  .node2 { fill:#050505; stroke:#66ccff; stroke-width:1.3; }
-  .node3 { fill:#050505; stroke:#ff3333; stroke-width:1.2; }
-  .wire { stroke:#333; stroke-width:1.2; fill:none; }
-  .wire2 { stroke:#00ffff; stroke-width:1.4; fill:none; opacity:.7; }
-  .svgtxt { fill:#fff; font-family:Courier, monospace; font-size:15px; }
-  .svgtxt2 { fill:#aaa; font-family:Courier, monospace; font-size:12px; }
-  .statusgrid {
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:10px;
-    margin:18px 0;
-  }
-  .statusbox { border:1px solid #333; padding:12px; background:#080808; }
-  .statusbox b { display:block; color:#00ffff; font-size:24px; }
-  .statusbox span { color:#aaa; font-size:14px; }
-  .footer { margin-top:60px; font-size:16px; color:#aaa; line-height:1.5; }
-  code { color:#00ffff; }
-  @media(max-width:700px){ body{padding:25px;font-size:18px}.statusgrid{grid-template-columns:repeat(2,1fr)} ul.drawer li{padding-left:20px}.launch-flagship a{font-size:24px} }
+  @media(max-width:540px){.explore{grid-template-columns:1fr}.legend{grid-template-columns:1fr 1fr}.buttons .btn{width:100%;text-align:center}}
 </style>
 </head>
 <body>
-<h1>GlobalGrid2050 Kernel Registry</h1>
+<div class="shell">
+  <div class="top">
+    <header>
+      <h1>GlobalGrid2050</h1>
+      <div class="subtitle">Registry of All Content in Repos and Dependencies</div>
+      <p>This registry is the BIOS and Kernel for the GlobalGrid2050 operating system. It inventories repositories, files and dependencies and publishes one source of truth for applications, AI agents and spider tools.</p>
+      <div class="buttons">
+        <a class="btn" href="./registry/latest.json">LATEST.json</a>
+        <a class="btn" href="./registry/kernel.json">KERNEL.json</a>
+        <a class="btn" href="./registry/graph_latest.json">GRAPH_latest.json</a>
+        <a class="btn" href="./registry/registry.md">REGISTRY.md</a>
+        <a class="btn" href="./registry/">All Versions</a>
+      </div>
+      <p class="small"><a href="https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies">View on GitHub ↗</a> &nbsp;&nbsp; <span class="muted">Open source registry layer</span></p>
+    </header>
 
-<p>The authoritative, versioned BIOS and kernel index for the GlobalGrid2050 federation.</p>
+    <aside class="panel">
+      <h2 class="section-title">LIVE REGISTRY STATUS</h2>
+      <table class="status">
+        <tr><td class="label">Version</td><td>:</td><td class="value green" id="version">—</td></tr>
+        <tr><td class="label">Generated</td><td>:</td><td class="value" id="generated">—</td></tr>
+        <tr><td class="label">Repositories</td><td>:</td><td class="value" id="repos">—</td></tr>
+        <tr><td class="label">Files</td><td>:</td><td class="value" id="files">—</td></tr>
+        <tr><td class="label">Unreachable</td><td>:</td><td class="value" id="unreachable">—</td></tr>
+        <tr><td class="label">Schema</td><td>:</td><td class="value" id="schema">—</td></tr>
+      </table>
+      <hr style="border:0;border-top:1px solid #07545b;margin:14px 0">
+      <table class="status"><tr><td class="label">Status</td><td>:</td><td class="ok" id="liveStatus">LOADING</td></tr></table>
+      <p><a href="#how">How it works →</a></p>
+    </aside>
+  </div>
 
-<div class="hero">
-  <p>This repository records what exists across the GlobalGrid2050 estate: repositories, files, boot sequence, graph export and compact kernel view. It is designed so humans, AI agents and spider applications can start from one stable source instead of rediscovering the estate every time.</p>
-  <p><span class="dev-status">SCREENING-GRADE OPERATING MEMORY</span> <span class="muted">· immutable registry snapshots · generated views · no fake green</span></p>
+  <section class="spider-panel">
+    <div class="spider-head">
+      <div><h2 class="section-title">REGISTRY STRUCTURE SPIDER</h2><div class="muted">High level view of the ecosystem. Click any node to open its repository or source.</div></div>
+      <div class="legend">
+        <span><i class="dot" style="background:#2fa7ff"></i>BIOS / Registry</span>
+        <span><i class="dot" style="background:#bd65ff"></i>Operating Layer</span>
+        <span><i class="dot" style="background:#63d92f"></i>Applications</span>
+        <span><i class="dot" style="background:#ff9400"></i>Data / Knowledge</span>
+        <span><i class="dot" style="background:#aaa"></i>External</span>
+      </div>
+    </div>
+    <div class="spider-wrap">
+      <svg viewBox="0 0 1100 600" role="img" aria-label="Clickable registry spider map">
+        <path class="wire-cyan" d="M550 125 L550 250"/>
+        <path class="wire" d="M550 250 L385 145"/>
+        <path class="wire" d="M550 250 L715 145"/>
+        <path class="wire" d="M550 250 L310 255"/>
+        <path class="wire" d="M550 250 L790 255"/>
+        <path class="wire" d="M550 250 L385 365"/>
+        <path class="wire" d="M550 250 L715 365"/>
+        <path class="wire-cyan" d="M550 250 L550 405"/>
+        <path class="wire" d="M550 405 L430 505"/>
+        <path class="wire" d="M550 405 L550 530"/>
+        <path class="wire" d="M550 405 L670 505"/>
+
+        <a href="./registry/latest.json" class="node bios"><circle cx="550" cy="95" r="58"/><text class="label" x="550" y="93" text-anchor="middle">BIOS</text><text class="sub" x="550" y="115" text-anchor="middle">latest.json ↗</text></a>
+        <a href="./registry/kernel.json" class="node bios"><circle cx="550" cy="250" r="72"/><text class="label" x="550" y="247" text-anchor="middle">REGISTRY</text><text class="label" x="550" y="269" text-anchor="middle">KERNEL</text><text class="sub" x="550" y="294" text-anchor="middle">kernel.json ↗</text></a>
+        <a href="https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos" class="node op"><circle cx="385" cy="145" r="52"/><text class="label" x="385" y="140" text-anchor="middle">FEDERATION</text><text class="label" x="385" y="158" text-anchor="middle">MAP</text><text class="sub" x="385" y="178" text-anchor="middle">GitHub ↗</text></a>
+        <a href="https://ventusltd.github.io/spiders/spider_printer_v1/" class="node app"><circle cx="715" cy="145" r="52"/><text class="label" x="715" y="140" text-anchor="middle">SPIDER</text><text class="label" x="715" y="158" text-anchor="middle">PRINTER</text><text class="sub" x="715" y="178" text-anchor="middle">Open ↗</text></a>
+        <a href="https://github.com/Ventusltd/globalgrid2050/tree/main/repd_grid_atlasv8" class="node app"><circle cx="310" cy="255" r="52"/><text class="label" x="310" y="250" text-anchor="middle">GRID</text><text class="label" x="310" y="268" text-anchor="middle">ATLAS</text><text class="sub" x="310" y="288" text-anchor="middle">GitHub ↗</text></a>
+        <a href="https://github.com/Ventusltd/globalgrid2050/tree/main/solar-bess-topology-v7" class="node app"><circle cx="790" cy="255" r="52"/><text class="label" x="790" y="250" text-anchor="middle">GIS SLD</text><text class="label" x="790" y="268" text-anchor="middle">SANDBOX</text><text class="sub" x="790" y="288" text-anchor="middle">GitHub ↗</text></a>
+        <a href="https://github.com/Ventusltd/data-interconnectors" class="node data"><circle cx="385" cy="365" r="52"/><text class="label" x="385" y="360" text-anchor="middle">INTERCONNECTORS</text><text class="label" x="385" y="378" text-anchor="middle">DATA</text><text class="sub" x="385" y="398" text-anchor="middle">GitHub ↗</text></a>
+        <a href="https://github.com/Ventusltd/data-gb-electricity" class="node data"><circle cx="715" cy="365" r="52"/><text class="label" x="715" y="360" text-anchor="middle">GB</text><text class="label" x="715" y="378" text-anchor="middle">ELECTRICITY</text><text class="sub" x="715" y="398" text-anchor="middle">GitHub ↗</text></a>
+        <a href="https://www.elexon.co.uk/" class="node ext"><circle cx="430" cy="505" r="45"/><text class="label" x="430" y="502" text-anchor="middle">ELEXON</text><text class="sub" x="430" y="522" text-anchor="middle">web ↗</text></a>
+        <a href="https://www.neso.energy/" class="node ext"><circle cx="550" cy="530" r="45"/><text class="label" x="550" y="527" text-anchor="middle">NESO</text><text class="sub" x="550" y="547" text-anchor="middle">web ↗</text></a>
+        <a href="https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero" class="node ext"><circle cx="670" cy="505" r="45"/><text class="label" x="670" y="502" text-anchor="middle">DESNZ</text><text class="sub" x="670" y="522" text-anchor="middle">web ↗</text></a>
+      </svg>
+    </div>
+  </section>
+
+  <section class="explore">
+    <div><h3 class="green">BIOS / KERNEL</h3><ul><li><a href="./registry/latest.json">latest.json ↗</a></li><li><a href="./registry/kernel.json">kernel.json ↗</a></li><li><a href="./registry/graph_latest.json">graph_latest.json ↗</a></li><li><a href="./registry/registry.md">registry.md ↗</a></li><li><a href="./registry/">All registry versions ↗</a></li></ul></div>
+    <div><h3 class="purple">OPERATING LAYER</h3><ul><li><a href="https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos">Federation Map ↗</a></li><li><a href="https://ventusltd.github.io/data-federation-map-for-globalgrid2050-all-repos/dashboard/federation_radial.html">Dashboard ↗</a></li><li><a href="https://ventusltd.github.io/data-federation-map-for-globalgrid2050-all-repos/dashboard/sandbox/spider_full_po_test.html">Spider PO Test ↗</a></li></ul></div>
+    <div><h3 class="green">APPLICATIONS</h3><ul><li><a href="https://ventusltd.github.io/spiders/spider_printer_v1/">Spider Printer ↗</a></li><li><a href="https://globalgrid2050.com/repd_grid_atlasv8/">Grid Atlas ↗</a></li><li><a href="https://globalgrid2050.com/solar-bess-topology-v7/">GIS SLD Sandbox ↗</a></li><li><a href="https://globalgrid2050.com/uk_energy_tracking/">UK Energy Tracker ↗</a></li></ul></div>
+    <div><h3 class="orange">DATA & KNOWLEDGE</h3><ul><li><a href="https://github.com/Ventusltd/data-interconnectors">Interconnectors Data ↗</a></li><li><a href="https://github.com/Ventusltd/data_uk_dno_and_tso">DNO / TSO Data ↗</a></li><li><a href="https://github.com/Ventusltd/data-gb-electricity">GB Electricity Data ↗</a></li><li><a href="https://github.com/Ventusltd/globalgrid2050">Knowledge Base ↗</a></li></ul></div>
+    <div><h3>ABOUT</h3><ul><li><a href="https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies">Repo README ↗</a></li><li><a href="https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/actions/workflows/registry.yml">Registry Workflow ↗</a></li><li><a href="https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/config/registry_repos.json">Scope Config ↗</a></li></ul></div>
+  </section>
+
+  <section class="cards" id="how">
+    <div class="card"><h3>WHAT IS THIS?</h3><p>The registry is the authoritative inventory of repositories, files and dependencies in the GlobalGrid2050 ecosystem.</p></div>
+    <div class="card"><h3>FOR DEVELOPERS / AI AGENTS</h3><p>Use <code>kernel.json</code> as the AI boot file. Use <code>graph_latest.json</code> as the spider render feed.</p></div>
+    <div class="card"><h3>FOR HUMANS</h3><p>Use this page to explore the ecosystem visually and navigate to repositories, applications and data sources.</p></div>
+  </section>
+
+  <footer class="footer">
+    <div><span class="green">root@globalgrid2050:~#</span> This registry powers the GlobalGrid2050 OS.<br>Encrypted by transparency. Governed by evidence. Built for the world.</div>
+    <div><a href="https://globalgrid2050.com/">GlobalGrid2050.com ↗</a><br><a href="https://www.ventusltd.com/">Ventus Ltd ↗</a></div>
+  </footer>
+  <p class="muted" style="text-align:center">Data live from <code>registry/latest.json</code> · Auto-updates via GitHub Actions · Open source</p>
 </div>
-
-<div class="launch-flagship">
-  <a href="./registry/latest.json">latest.json — authoritative pointer</a>
-  <span class="dev-status" id="liveStatus">loading</span>
-</div>
-
-<div class="statusgrid">
-  <div class="statusbox"><b id="version">—</b><span>authoritative version</span></div>
-  <div class="statusbox"><b id="repos">—</b><span>repositories</span></div>
-  <div class="statusbox"><b id="files">—</b><span>files</span></div>
-  <div class="statusbox"><b id="unreachable">—</b><span>unreachable</span></div>
-</div>
-
-<div class="spider" aria-label="High level spider structure">
-<svg viewBox="0 0 900 420" role="img">
-  <path class="wire2" d="M450 70 C450 130 450 150 450 190"/>
-  <path class="wire" d="M450 190 C260 180 210 145 130 105"/>
-  <path class="wire" d="M450 190 C640 180 690 145 770 105"/>
-  <path class="wire" d="M450 190 C250 220 200 270 120 330"/>
-  <path class="wire" d="M450 190 C650 220 700 270 780 330"/>
-  <path class="wire2" d="M450 250 C450 285 450 310 450 350"/>
-
-  <rect class="node" x="325" y="30" width="250" height="58" rx="8"/>
-  <text class="svgtxt" x="450" y="55" text-anchor="middle">BIOS</text>
-  <text class="svgtxt2" x="450" y="75" text-anchor="middle">registry_vNNNN.json</text>
-
-  <rect class="node" x="325" y="165" width="250" height="70" rx="8"/>
-  <text class="svgtxt" x="450" y="194" text-anchor="middle">KERNEL</text>
-  <text class="svgtxt2" x="450" y="215" text-anchor="middle">kernel.json · graph_latest.json</text>
-
-  <rect class="node2" x="30" y="75" width="200" height="58" rx="8"/>
-  <text class="svgtxt" x="130" y="100" text-anchor="middle">Own Repos</text>
-  <text class="svgtxt2" x="130" y="120" text-anchor="middle">files · workflows · docs</text>
-
-  <rect class="node2" x="670" y="75" width="200" height="58" rx="8"/>
-  <text class="svgtxt" x="770" y="100" text-anchor="middle">Open Sources</text>
-  <text class="svgtxt2" x="770" y="120" text-anchor="middle">future data drivers</text>
-
-  <rect class="node2" x="20" y="305" width="220" height="58" rx="8"/>
-  <text class="svgtxt" x="130" y="330" text-anchor="middle">Federation Map</text>
-  <text class="svgtxt2" x="130" y="350" text-anchor="middle">relationships · evidence</text>
-
-  <rect class="node2" x="660" y="305" width="240" height="58" rx="8"/>
-  <text class="svgtxt" x="780" y="330" text-anchor="middle">Spider Printer</text>
-  <text class="svgtxt2" x="780" y="350" text-anchor="middle">visual control room</text>
-
-  <rect class="node3" x="325" y="325" width="250" height="58" rx="8"/>
-  <text class="svgtxt" x="450" y="350" text-anchor="middle">Applications</text>
-  <text class="svgtxt2" x="450" y="370" text-anchor="middle">Atlas · SLD · GridBot · BESS</text>
-</svg>
-</div>
-
-<input type="text" id="gridSearch" placeholder="Search registry links..." autocomplete="off">
-<div id="menu"></div>
-
-<div class="footer">
-  <p><strong>Where this page gets data from:</strong> this page reads <code>registry/latest.json</code>, then the pointed <code>registry_vNNNN.json</code>. The generated human view is <code>registry/registry.md</code>. The application boot files are <code>registry/kernel.json</code> and <code>registry/graph_latest.json</code>.</p>
-  <p><strong>Disclaimer:</strong> Content is provided for general technical documentation, audit and research purposes only. Spider outputs are screening-grade unless a later professional verification layer is explicitly added.</p>
-</div>
-
 <script>
-const AREAS = [
-  { name:"Kernel Boot Files", children:[
-    { name:"latest.json — authoritative pointer", url:"./registry/latest.json" },
-    { name:"kernel.json — compact AI boot file", url:"./registry/kernel.json" },
-    { name:"graph_latest.json — Spider Printer graph feed", url:"./registry/graph_latest.json" },
-    { name:"registry.md — generated human view", url:"./registry/registry.md" }
-  ]},
-  { name:"Immutable Registry Snapshots", children:[
-    { name:"Open registry folder", url:"./registry/" },
-    { name:"Current authoritative JSON", url:"#", note:"loaded from latest.json", id:"currentJson" }
-  ]},
-  { name:"Operating System Layers", children:[
-    { name:"BIOS: immutable registry snapshots", url:"./registry/latest.json" },
-    { name:"Kernel: compact boot file", url:"./registry/kernel.json" },
-    { name:"Graph: spider render feed", url:"./registry/graph_latest.json" },
-    { name:"Federation control ledger", url:"https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos" },
-    { name:"Spider Printer", url:"https://ventusltd.github.io/spiders/spider_printer_v1/" }
-  ]},
-  { name:"Source Repositories", children:[
-    { name:"This registry repo", url:"https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies" },
-    { name:"DNO and TSO data spine", url:"https://github.com/Ventusltd/data_uk_dno_and_tso" },
-    { name:"GB electricity data", url:"https://github.com/Ventusltd/data-gb-electricity" },
-    { name:"Interconnectors data", url:"https://github.com/Ventusltd/data-interconnectors" },
-    { name:"GlobalGrid2050 monolith", url:"https://github.com/Ventusltd/globalgrid2050" },
-    { name:"Spiders", url:"https://github.com/Ventusltd/spiders" }
-  ]},
-  { name:"Workflows and Safety", children:[
-    { name:"Registry workflow", url:"https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/actions/workflows/registry.yml" },
-    { name:"Validation script", url:"https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/validate_kernel_outputs.py" },
-    { name:"Repository scope config", url:"https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/config/registry_repos.json" }
-  ]}
-];
-
-const esc = (s) => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const menu = document.getElementById("menu");
-
-function rowHtml(r){
-  const note = r.note ? ` <span class="dev-status">(${esc(r.note)})</span>` : "";
-  const id = r.id ? ` id="${esc(r.id)}"` : "";
-  const key = (r.name + " " + (r.note || "")).toLowerCase();
-  return `<li data-name="${esc(key)}"><a${id} href="${encodeURI(r.url)}">${esc(r.name)}</a>${note}</li>`;
-}
-
-function build(){
-  let html = "";
-  for(const a of AREAS){
-    if(a.children && a.children.length){
-      html += `<details class="area" data-name="${esc(a.name.toLowerCase())}"><summary>${esc(a.name)}</summary><ul class="drawer">${a.children.map(rowHtml).join("")}</ul></details>`;
-    } else if(a.url){
-      html += `<a class="toplink" data-name="${esc(a.name.toLowerCase())}" href="${encodeURI(a.url)}">${esc(a.name)}</a>`;
-    }
-  }
-  html += `<p class="noresult" id="noresult" style="display:none">No match.</p>`;
-  menu.innerHTML = html;
-}
-
-function applySearch(raw){
-  const q = raw.trim().toLowerCase();
-  let anyVisible = false;
-  document.querySelectorAll(".toplink").forEach(el => {
-    const show = !q || el.dataset.name.includes(q);
-    el.style.display = show ? "" : "none";
-    if(show) anyVisible = true;
-  });
-  document.querySelectorAll("details.area").forEach(d => {
-    const areaMatch = !!q && d.dataset.name.includes(q);
-    let childMatch = false;
-    d.querySelectorAll("li").forEach(li => {
-      const liMatch = li.dataset.name.includes(q);
-      const show = !q || areaMatch || liMatch;
-      li.style.display = show ? "" : "none";
-      if(q && liMatch) childMatch = true;
-    });
-    const visible = !q || areaMatch || childMatch;
-    d.style.display = visible ? "" : "none";
-    d.open = q ? visible : false;
-    if(visible) anyVisible = true;
-  });
-  document.getElementById("noresult").style.display = anyVisible ? "none" : "";
-}
-
 async function loadLive(){
   try{
-    const latest = await fetch("./registry/latest.json", { cache:"no-store" }).then(r => r.json());
-    const registry = await fetch("./" + latest.json_path, { cache:"no-store" }).then(r => r.json());
-    document.getElementById("version").textContent = String(latest.authoritative_version || registry.registry_version || "—");
-    document.getElementById("repos").textContent = registry.totals?.repo_count ?? "—";
-    document.getElementById("files").textContent = registry.totals?.file_count ?? "—";
-    document.getElementById("unreachable").textContent = registry.totals?.unreachable_count ?? "—";
-    document.getElementById("liveStatus").textContent = "live · kernel loaded";
-    const current = document.getElementById("currentJson");
-    if(current){ current.href = "./" + latest.json_path; current.textContent = latest.json_path; }
-  } catch(err){
-    document.getElementById("liveStatus").textContent = "registry not loaded";
+    const latest = await fetch('./registry/latest.json', {cache:'no-store'}).then(r=>r.json());
+    const registry = await fetch('./' + latest.json_path, {cache:'no-store'}).then(r=>r.json());
+    document.getElementById('version').textContent = latest.authoritative_version || registry.registry_version || '—';
+    document.getElementById('generated').textContent = registry.generated_at || latest.updated_at || '—';
+    document.getElementById('repos').textContent = registry.totals?.repo_count ?? '—';
+    document.getElementById('files').textContent = registry.totals?.file_count ?? '—';
+    document.getElementById('unreachable').textContent = registry.totals?.unreachable_count ?? '—';
+    document.getElementById('schema').textContent = registry.schema_version || '—';
+    document.getElementById('liveStatus').textContent = 'OPERATIONAL';
+  }catch(e){
+    document.getElementById('liveStatus').textContent = 'NOT LOADED';
   }
 }
-
-build();
-document.getElementById("gridSearch").addEventListener("input", e => applySearch(e.target.value));
 loadLive();
 </script>
 </body>
