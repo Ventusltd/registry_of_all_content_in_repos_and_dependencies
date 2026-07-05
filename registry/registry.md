@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0003`
-Generated at: `2026-07-05T19:47:08Z`
+Authoritative version: `0004`
+Generated at: `2026-07-05T21:01:16Z`
 
 ## Totals
 
 - Repositories: 6
-- Files: 2938
-- Reachable: 2938
+- Files: 2941
+- Reachable: 2941
 - Unreachable: 0
 
 ## Boot sequence
@@ -2955,7 +2955,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 11
+File count: 13
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -2968,6 +2968,8 @@ File count: 11
 | verified | document | [registry/registry.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry.md) | kernel registry artifact |
 | verified | json | [registry/registry_v0001.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0001.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0002.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0002.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0003.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0003.json) | kernel registry artifact |
+| verified | code | [scripts/build_graph_latest.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_graph_latest.py) | builder or automation script |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |
 | verified | code | [scripts/reconcile_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/reconcile_registry.py) | builder or automation script |
 
@@ -2977,11 +2979,12 @@ Role: spider species lab and topology viewers
 
 Default branch: `main`
 
-File count: 50
+File count: 51
 
 | State | Type | Path | Role |
 |---|---|---|---|
 | verified | workflow | [.github/workflows/spider_maya_v1_scan.yml](https://github.com/Ventusltd/spiders/blob/main/.github/workflows/spider_maya_v1_scan.yml) | automation workflow |
+| verified | workflow | [.github/workflows/spider_printer_registry_smoke.yml](https://github.com/Ventusltd/spiders/blob/main/.github/workflows/spider_printer_registry_smoke.yml) | automation workflow |
 | verified | file | [.nojekyll](https://github.com/Ventusltd/spiders/blob/main/.nojekyll) | repository content |
 | verified | document | [AI_NEW_REPO_MEMORY_LOADER.md](https://github.com/Ventusltd/spiders/blob/main/AI_NEW_REPO_MEMORY_LOADER.md) | repository content |
 | verified | document | [docs/doctrine/README.md](https://github.com/Ventusltd/spiders/blob/main/docs/doctrine/README.md) | human entry point |
