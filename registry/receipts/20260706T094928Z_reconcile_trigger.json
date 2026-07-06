@@ -1,0 +1,73 @@
+{
+  "before": {
+    "file_count": 4465,
+    "reachable_count": 4465,
+    "repo_count": 14,
+    "unreachable_count": 0
+  },
+  "generated_at": "2026-07-06T09:49:28Z",
+  "live": {
+    "file_count": 4468,
+    "repo_count": 14,
+    "repos": [
+      {
+        "file_count": 147,
+        "name": "data-federation-map-for-globalgrid2050-all-repos"
+      },
+      {
+        "file_count": 472,
+        "name": "data-gb-electricity"
+      },
+      {
+        "file_count": 10,
+        "name": "data-interconnectors"
+      },
+      {
+        "file_count": 35,
+        "name": "data_uk_dno_and_tso"
+      },
+      {
+        "file_count": 14,
+        "name": "gb-electricity-ui"
+      },
+      {
+        "file_count": 2223,
+        "name": "globalgrid2050"
+      },
+      {
+        "file_count": 19,
+        "name": "globalgrid2050-hompage"
+      },
+      {
+        "file_count": 1390,
+        "name": "pandapower"
+      },
+      {
+        "file_count": 3,
+        "name": "pv-arc-protection-circuit"
+      },
+      {
+        "file_count": 29,
+        "name": "registry_of_all_content_in_repos_and_dependencies"
+      },
+      {
+        "file_count": 1,
+        "name": "Solar-PV-Hybrid-and-off-grid"
+      },
+      {
+        "file_count": 2,
+        "name": "solar-repowering-whitepaper"
+      },
+      {
+        "file_count": 51,
+        "name": "spiders"
+      },
+      {
+        "file_count": 72,
+        "name": "youengineer-code-review"
+      }
+    ]
+  },
+  "reason": "live counts differ from authoritative registry",
+  "status": "builder_invoked"
+}
