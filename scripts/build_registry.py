@@ -31,6 +31,7 @@ REPOS = [
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_DIR = ROOT / "registry"
 RECEIPTS_DIR = REGISTRY_DIR / "receipts"
+CONFIG_PATH = ROOT / "config" / "registry_repos.json"
 SCHEMA_VERSION = "globalgrid2050.kernel_registry.v1"
 API_ROOT = "https://api.github.com"
 
@@ -58,6 +59,97 @@ ROLE_BY_REPO = {
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def read_scope_config() -> dict[str, Any] | None:
+    if not CONFIG_PATH.exists():
+        return None
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    if not isinstance(cfg, dict):
+        raise RuntimeError("config/registry_repos.json must contain a JSON object")
+    return cfg
+
+
+def config_repo_entries(cfg: dict[str, Any]) -> list[dict[str, Any]]:
+    repos = cfg.get("repos", [])
+    if not isinstance(repos, list):
+        raise RuntimeError("config/registry_repos.json repos must be an array")
+    entries = []
+    for item in repos:
+        if not isinstance(item, dict):
+            raise RuntimeError("config/registry_repos.json repos entries must be objects")
+        name = item.get("name")
+        if not isinstance(name, str) or not name.strip():
+            raise RuntimeError("config/registry_repos.json repo entry missing name")
+        entries.append(item)
+    return entries
+
+
+def apply_config_scope() -> str:
+    """Load the configured repository scope inside the builder process.
+
+    The legacy six-repo REPOS list remains a documented fallback only. Loading the
+    config here makes subprocess rebuilds safe, because callers no longer have to
+    inject global module state before invoking this file.
+    """
+    global REPOS
+
+    cfg = read_scope_config()
+    if cfg is None:
+        message = f"scope: built-in fallback ({len(REPOS)} repos)"
+        print(message)
+        return message
+
+    entries = config_repo_entries(cfg)
+    if not entries:
+        message = f"scope: built-in fallback ({len(REPOS)} repos)"
+        print(message)
+        return message
+
+    REPOS = [item["name"] for item in entries]
+    for item in entries:
+        ROLE_BY_REPO[item["name"]] = item.get("role", "GlobalGrid2050 federation repository")
+
+    message = f"scope: config/registry_repos.json ({len(REPOS)} repos)"
+    print(message)
+    return message
+
+
+def unresolved_candidate_names(cfg: dict[str, Any]) -> set[str]:
+    names: set[str] = set()
+    candidates = cfg.get("unresolved_candidates", [])
+    if not isinstance(candidates, list):
+        return names
+    for item in candidates:
+        if isinstance(item, str) and item:
+            names.add(item)
+        elif isinstance(item, dict) and isinstance(item.get("name"), str):
+            names.add(item["name"])
+    return names
+
+
+def expected_scope_from_config() -> set[str] | None:
+    cfg = read_scope_config()
+    if cfg is None:
+        return None
+    entries = config_repo_entries(cfg)
+    if not entries:
+        return None
+    expected = {item["name"] for item in entries}
+    return expected - unresolved_candidate_names(cfg)
+
+
+def validate_scope_completeness(registry: dict[str, Any]) -> None:
+    expected = expected_scope_from_config()
+    if expected is None:
+        return
+    actual = {repo.get("name") for repo in registry.get("repos", []) if repo.get("name")}
+    missing = sorted(expected - actual)
+    if missing:
+        raise RuntimeError(
+            "Refusing to write or repoint partial registry: "
+            f"missing configured repos {missing}; expected {len(expected)} repos, got {len(actual)}"
+        )
 
 
 def github_headers() -> dict[str, str]:
@@ -273,6 +365,7 @@ def validate_registry(registry: dict[str, Any], expected_version: int) -> None:
         raise RuntimeError("file_count does not equal actual file entries")
     if registry.get("totals", {}).get("repo_count") != len(repos):
         raise RuntimeError("repo_count does not equal actual repo entries")
+    validate_scope_completeness(registry)
     encoded = json.dumps(registry, indent=2, sort_keys=True)
     json.loads(encoded)
 
@@ -353,6 +446,7 @@ def write_registry(registry: dict[str, Any], version: int) -> None:
 
 
 def main() -> int:
+    apply_config_scope()
     version = next_version()
     registry = assemble_registry(version)
     write_registry(registry, version)
