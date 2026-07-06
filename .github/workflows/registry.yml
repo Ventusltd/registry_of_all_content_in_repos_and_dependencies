@@ -2,6 +2,18 @@ name: Build kernel registry
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'config/registry_repos.json'
+      - 'scripts/build_registry.py'
+      - 'scripts/build_registry_from_config.py'
+      - 'scripts/reconcile_registry.py'
+      - 'scripts/reconcile_registry_from_config.py'
+      - 'scripts/build_graph_latest.py'
+      - 'scripts/build_kernel.py'
+      - 'scripts/validate_kernel_outputs.py'
+      - '.github/workflows/registry.yml'
   schedule:
     - cron: '0 6 * * 1'
 
@@ -23,7 +35,7 @@ jobs:
       - name: Run registry builder or reconciler
         run: |
           set -euo pipefail
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "push" ]; then
             python3 scripts/build_registry_from_config.py
           else
             python3 scripts/reconcile_registry_from_config.py
