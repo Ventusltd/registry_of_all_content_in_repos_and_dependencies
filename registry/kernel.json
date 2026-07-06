@@ -56,8 +56,8 @@
       "repo": "spiders"
     }
   ],
-  "generated_at": "2026-07-06T09:49:30Z",
-  "registry_version": 10,
+  "generated_at": "2026-07-06T19:47:17Z",
+  "registry_version": 11,
   "repos": [
     {
       "default_branch": "main",
@@ -343,6 +343,55 @@
     },
     {
       "default_branch": "main",
+      "file_count": 10,
+      "html_url": "https://github.com/Ventusltd/data-interconnectors",
+      "important_files": [
+        {
+          "github_url": "https://github.com/Ventusltd/data-interconnectors/blob/main/.github/workflows/gridbot_uk_interconnector_build.yml",
+          "path": ".github/workflows/gridbot_uk_interconnector_build.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/data-interconnectors/main/.github/workflows/gridbot_uk_interconnector_build.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/data-interconnectors/blob/main/DATA_SOURCES.md",
+          "path": "DATA_SOURCES.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/data-interconnectors/main/DATA_SOURCES.md",
+          "role": "source registry",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/data-interconnectors/blob/main/DEPENDENCIES.md",
+          "path": "DEPENDENCIES.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/data-interconnectors/main/DEPENDENCIES.md",
+          "role": "repository content",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/data-interconnectors/blob/main/IMPLEMENTATION.md",
+          "path": "IMPLEMENTATION.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/data-interconnectors/main/IMPLEMENTATION.md",
+          "role": "repository content",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/data-interconnectors/blob/main/README.md",
+          "path": "README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/data-interconnectors/main/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        }
+      ],
+      "name": "data-interconnectors",
+      "role": "interconnector data repository"
+    },
+    {
+      "default_branch": "main",
       "file_count": 35,
       "html_url": "https://github.com/Ventusltd/data_uk_dno_and_tso",
       "important_files": [
@@ -448,7 +497,56 @@
     },
     {
       "default_branch": "main",
-      "file_count": 2223,
+      "file_count": 14,
+      "html_url": "https://github.com/Ventusltd/gb-electricity-ui",
+      "important_files": [
+        {
+          "github_url": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/.github/workflows/pages.yml",
+          "path": ".github/workflows/pages.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/gb-electricity-ui/main/.github/workflows/pages.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/index.html",
+          "path": "index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/gb-electricity-ui/main/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/README.md",
+          "path": "README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/gb-electricity-ui/main/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/uk_energy_tracking_v6/generation_history/index.html",
+          "path": "uk_energy_tracking_v6/generation_history/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/gb-electricity-ui/main/uk_energy_tracking_v6/generation_history/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/uk_energy_tracking_v6/index.html",
+          "path": "uk_energy_tracking_v6/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/gb-electricity-ui/main/uk_energy_tracking_v6/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        }
+      ],
+      "name": "gb-electricity-ui",
+      "role": "GB electricity user interface"
+    },
+    {
+      "default_branch": "main",
+      "file_count": 2224,
       "html_url": "https://github.com/Ventusltd/globalgrid2050",
       "important_files": [
         {
@@ -767,6 +865,14 @@
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/dependencies_v4.yml",
           "path": ".github/workflows/dependencies_v4.yml",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/dependencies_v4.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/deploy-pages.yml",
+          "path": ".github/workflows/deploy-pages.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/deploy-pages.yml",
           "role": "automation workflow",
           "state": "verified",
           "type": "workflow"
@@ -2577,7 +2683,106 @@
     },
     {
       "default_branch": "main",
-      "file_count": 29,
+      "file_count": 19,
+      "html_url": "https://github.com/Ventusltd/globalgrid2050-hompage",
+      "important_files": [
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/.github/workflows/gridbot_federation_systems_map.yml",
+          "path": ".github/workflows/gridbot_federation_systems_map.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050-hompage/main/.github/workflows/gridbot_federation_systems_map.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/.github/workflows/pages.yml",
+          "path": ".github/workflows/pages.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050-hompage/main/.github/workflows/pages.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/anchor_AI_MUST_READ.md",
+          "path": "anchor_AI_MUST_READ.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050-hompage/main/anchor_AI_MUST_READ.md",
+          "role": "AI boot and federation manifest",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/index.html",
+          "path": "index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050-hompage/main/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/README.md",
+          "path": "README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050-hompage/main/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        }
+      ],
+      "name": "globalgrid2050-hompage",
+      "role": "homepage and governance context repository"
+    },
+    {
+      "default_branch": "develop",
+      "file_count": 1390,
+      "html_url": "https://github.com/Ventusltd/pandapower",
+      "important_files": [
+        {
+          "github_url": "https://github.com/Ventusltd/pandapower/blob/develop/.github/workflows/github_test_action.yml",
+          "path": ".github/workflows/github_test_action.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/pandapower/develop/.github/workflows/github_test_action.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/pandapower/blob/develop/.github/workflows/test_release.yml",
+          "path": ".github/workflows/test_release.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/pandapower/develop/.github/workflows/test_release.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/pandapower/blob/develop/.github/workflows/upload_release.yml",
+          "path": ".github/workflows/upload_release.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/pandapower/develop/.github/workflows/upload_release.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        }
+      ],
+      "name": "pandapower",
+      "role": "vendor or forked power-system analysis dependency"
+    },
+    {
+      "default_branch": "main",
+      "file_count": 3,
+      "html_url": "https://github.com/Ventusltd/pv-arc-protection-circuit",
+      "important_files": [
+        {
+          "github_url": "https://github.com/Ventusltd/pv-arc-protection-circuit/blob/main/README.md",
+          "path": "README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/pv-arc-protection-circuit/main/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        }
+      ],
+      "name": "pv-arc-protection-circuit",
+      "role": "PV arc protection engineering research"
+    },
+    {
+      "default_branch": "main",
+      "file_count": 31,
       "html_url": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
       "important_files": [
         {
@@ -2631,6 +2836,40 @@
       ],
       "name": "registry_of_all_content_in_repos_and_dependencies",
       "role": "authoritative kernel registry of repo contents and dependencies"
+    },
+    {
+      "default_branch": "main",
+      "file_count": 1,
+      "html_url": "https://github.com/Ventusltd/Solar-PV-Hybrid-and-off-grid",
+      "important_files": [
+        {
+          "github_url": "https://github.com/Ventusltd/Solar-PV-Hybrid-and-off-grid/blob/main/README.md",
+          "path": "README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/Solar-PV-Hybrid-and-off-grid/main/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        }
+      ],
+      "name": "Solar-PV-Hybrid-and-off-grid",
+      "role": "solar hybrid and off-grid research repository"
+    },
+    {
+      "default_branch": "main",
+      "file_count": 2,
+      "html_url": "https://github.com/Ventusltd/solar-repowering-whitepaper",
+      "important_files": [
+        {
+          "github_url": "https://github.com/Ventusltd/solar-repowering-whitepaper/blob/main/README.md",
+          "path": "README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/solar-repowering-whitepaper/main/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        }
+      ],
+      "name": "solar-repowering-whitepaper",
+      "role": "solar repowering research and publication repository"
     },
     {
       "default_branch": "main",
@@ -2768,14 +3007,79 @@
       ],
       "name": "spiders",
       "role": "spider species lab and topology viewers"
+    },
+    {
+      "default_branch": "main",
+      "file_count": 42,
+      "html_url": "https://github.com/Ventusltd/youengineer-code-review",
+      "important_files": [
+        {
+          "github_url": "https://github.com/Ventusltd/youengineer-code-review/blob/main/civilisation-atlas-v8/index.html",
+          "path": "civilisation-atlas-v8/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/youengineer-code-review/main/civilisation-atlas-v8/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/youengineer-code-review/blob/main/civilisation-atlas-v8/README.md",
+          "path": "civilisation-atlas-v8/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/youengineer-code-review/main/civilisation-atlas-v8/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/youengineer-code-review/blob/main/index.html",
+          "path": "index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/youengineer-code-review/main/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/youengineer-code-review/blob/main/README.md",
+          "path": "README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/youengineer-code-review/main/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/youengineer-code-review/blob/main/world-cup-knockout-v5/index.html",
+          "path": "world-cup-knockout-v5/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/youengineer-code-review/main/world-cup-knockout-v5/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/youengineer-code-review/blob/main/world-cup-knockout/index.html",
+          "path": "world-cup-knockout/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/youengineer-code-review/main/world-cup-knockout/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/youengineer-code-review/blob/main/world-cup-knockout/README.md",
+          "path": "world-cup-knockout/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/youengineer-code-review/main/world-cup-knockout/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        }
+      ],
+      "name": "youengineer-code-review",
+      "role": "code review and engineering education repository"
     }
   ],
   "schema_version": "globalgrid2050.kernel_boot.v1",
-  "source_registry": "registry/registry_v0010.json",
+  "source_registry": "registry/registry_v0011.json",
   "totals": {
-    "file_count": 2957,
-    "reachable_count": 2957,
-    "repo_count": 6,
+    "file_count": 4441,
+    "reachable_count": 4441,
+    "repo_count": 14,
     "unreachable_count": 0
   }
 }

@@ -5,9 +5,9 @@
     "width": 4200
   },
   "dataSource": {
-    "generatedAt": "2026-07-06T09:49:30Z",
-    "jsonPath": "registry/registry_v0010.json",
-    "registryVersion": 10,
+    "generatedAt": "2026-07-06T19:47:17Z",
+    "jsonPath": "registry/registry_v0011.json",
+    "registryVersion": 11,
     "repo": "Ventusltd/registry_of_all_content_in_repos_and_dependencies"
   },
   "edgeTypes": {
@@ -127,6 +127,26 @@
       "type": "reference"
     },
     {
+      "from": "repo::data-interconnectors",
+      "to": "file::data-interconnectors::.github/workflows/gridbot_uk_interconnector_build.yml",
+      "type": "reference"
+    },
+    {
+      "from": "repo::data-interconnectors",
+      "to": "file::data-interconnectors::DEPENDENCIES.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::data-interconnectors",
+      "to": "file::data-interconnectors::IMPLEMENTATION.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::data-interconnectors",
+      "to": "file::data-interconnectors::README.md",
+      "type": "reference"
+    },
+    {
       "from": "repo::data_uk_dno_and_tso",
       "to": "file::data_uk_dno_and_tso::.github/workflows/audit.yml",
       "type": "reference"
@@ -144,6 +164,31 @@
     {
       "from": "repo::data_uk_dno_and_tso",
       "to": "file::data_uk_dno_and_tso::README.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::gb-electricity-ui",
+      "to": "file::gb-electricity-ui::.github/workflows/pages.yml",
+      "type": "reference"
+    },
+    {
+      "from": "repo::gb-electricity-ui",
+      "to": "file::gb-electricity-ui::index.html",
+      "type": "reference"
+    },
+    {
+      "from": "repo::gb-electricity-ui",
+      "to": "file::gb-electricity-ui::README.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::gb-electricity-ui",
+      "to": "file::gb-electricity-ui::uk_energy_tracking_v6/generation_history/index.html",
+      "type": "reference"
+    },
+    {
+      "from": "repo::gb-electricity-ui",
+      "to": "file::gb-electricity-ui::uk_energy_tracking_v6/index.html",
       "type": "reference"
     },
     {
@@ -197,6 +242,51 @@
       "type": "reference"
     },
     {
+      "from": "repo::globalgrid2050-hompage",
+      "to": "file::globalgrid2050-hompage::.github/workflows/gridbot_federation_systems_map.yml",
+      "type": "reference"
+    },
+    {
+      "from": "repo::globalgrid2050-hompage",
+      "to": "file::globalgrid2050-hompage::.github/workflows/pages.yml",
+      "type": "reference"
+    },
+    {
+      "from": "repo::globalgrid2050-hompage",
+      "to": "file::globalgrid2050-hompage::anchor_AI_MUST_READ.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::globalgrid2050-hompage",
+      "to": "file::globalgrid2050-hompage::index.html",
+      "type": "reference"
+    },
+    {
+      "from": "repo::globalgrid2050-hompage",
+      "to": "file::globalgrid2050-hompage::README.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::pandapower",
+      "to": "file::pandapower::.github/workflows/github_test_action.yml",
+      "type": "reference"
+    },
+    {
+      "from": "repo::pandapower",
+      "to": "file::pandapower::.github/workflows/test_release.yml",
+      "type": "reference"
+    },
+    {
+      "from": "repo::pandapower",
+      "to": "file::pandapower::.github/workflows/upload_release.yml",
+      "type": "reference"
+    },
+    {
+      "from": "repo::pv-arc-protection-circuit",
+      "to": "file::pv-arc-protection-circuit::README.md",
+      "type": "reference"
+    },
+    {
       "from": "repo::registry_of_all_content_in_repos_and_dependencies",
       "to": "file::registry_of_all_content_in_repos_and_dependencies::.github/workflows/registry.yml",
       "type": "reference"
@@ -219,6 +309,16 @@
     {
       "from": "repo::registry_of_all_content_in_repos_and_dependencies",
       "to": "file::registry_of_all_content_in_repos_and_dependencies::registry/latest.json",
+      "type": "reference"
+    },
+    {
+      "from": "repo::Solar-PV-Hybrid-and-off-grid",
+      "to": "file::Solar-PV-Hybrid-and-off-grid::README.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::solar-repowering-whitepaper",
+      "to": "file::solar-repowering-whitepaper::README.md",
       "type": "reference"
     },
     {
@@ -272,6 +372,31 @@
       "type": "reference"
     },
     {
+      "from": "repo::youengineer-code-review",
+      "to": "file::youengineer-code-review::civilisation-atlas-v8/index.html",
+      "type": "reference"
+    },
+    {
+      "from": "repo::youengineer-code-review",
+      "to": "file::youengineer-code-review::index.html",
+      "type": "reference"
+    },
+    {
+      "from": "repo::youengineer-code-review",
+      "to": "file::youengineer-code-review::README.md",
+      "type": "reference"
+    },
+    {
+      "from": "repo::youengineer-code-review",
+      "to": "file::youengineer-code-review::world-cup-knockout-v5/index.html",
+      "type": "reference"
+    },
+    {
+      "from": "repo::youengineer-code-review",
+      "to": "file::youengineer-code-review::world-cup-knockout/index.html",
+      "type": "reference"
+    },
+    {
       "from": "repo::registry_of_all_content_in_repos_and_dependencies",
       "to": "repo::data-federation-map-for-globalgrid2050-all-repos",
       "type": "federation"
@@ -283,7 +408,17 @@
     },
     {
       "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "repo::data-interconnectors",
+      "type": "federation"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
       "to": "repo::data_uk_dno_and_tso",
+      "type": "federation"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "repo::gb-electricity-ui",
       "type": "federation"
     },
     {
@@ -293,7 +428,37 @@
     },
     {
       "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "repo::globalgrid2050-hompage",
+      "type": "federation"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "repo::pandapower",
+      "type": "federation"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "repo::pv-arc-protection-circuit",
+      "type": "federation"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "repo::Solar-PV-Hybrid-and-off-grid",
+      "type": "federation"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "repo::solar-repowering-whitepaper",
+      "type": "federation"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
       "to": "repo::spiders",
+      "type": "federation"
+    },
+    {
+      "from": "repo::registry_of_all_content_in_repos_and_dependencies",
+      "to": "repo::youengineer-code-review",
       "type": "federation"
     }
   ],
@@ -493,13 +658,63 @@
       "y": 1420
     },
     {
+      "id": "repo::data-interconnectors",
+      "kind": "data",
+      "label": "data-interconnectors",
+      "layer": "data",
+      "source": "https://github.com/Ventusltd/data-interconnectors",
+      "subtitle": "10 files \u00b7 main",
+      "x": 1120,
+      "y": 300
+    },
+    {
+      "id": "file::data-interconnectors::.github/workflows/gridbot_uk_interconnector_build.yml",
+      "kind": "schema",
+      "label": "gridbot_uk_interconnector_bu",
+      "layer": "schemas",
+      "source": "https://github.com/Ventusltd/data-interconnectors/blob/main/.github/workflows/gridbot_uk_interconnector_build.yml",
+      "subtitle": "automation workflow",
+      "x": 1120,
+      "y": 1180
+    },
+    {
+      "id": "file::data-interconnectors::DEPENDENCIES.md",
+      "kind": "library",
+      "label": "DEPENDENCIES.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/data-interconnectors/blob/main/DEPENDENCIES.md",
+      "subtitle": "repository content",
+      "x": 1120,
+      "y": 1300
+    },
+    {
+      "id": "file::data-interconnectors::IMPLEMENTATION.md",
+      "kind": "library",
+      "label": "IMPLEMENTATION.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/data-interconnectors/blob/main/IMPLEMENTATION.md",
+      "subtitle": "repository content",
+      "x": 1120,
+      "y": 1420
+    },
+    {
+      "id": "file::data-interconnectors::README.md",
+      "kind": "library",
+      "label": "README.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/data-interconnectors/blob/main/README.md",
+      "subtitle": "human entry point",
+      "x": 1120,
+      "y": 1540
+    },
+    {
       "id": "repo::data_uk_dno_and_tso",
       "kind": "data",
       "label": "data_uk_dno_and_tso",
       "layer": "data",
       "source": "https://github.com/Ventusltd/data_uk_dno_and_tso",
       "subtitle": "35 files \u00b7 main",
-      "x": 1120,
+      "x": 1540,
       "y": 300
     },
     {
@@ -509,7 +724,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/data_uk_dno_and_tso/blob/main/.github/workflows/audit.yml",
       "subtitle": "automation workflow",
-      "x": 1120,
+      "x": 1540,
       "y": 1180
     },
     {
@@ -519,7 +734,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/data_uk_dno_and_tso/blob/main/config/sources.json",
       "subtitle": "source registry",
-      "x": 1120,
+      "x": 1540,
       "y": 1300
     },
     {
@@ -529,7 +744,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/data_uk_dno_and_tso/blob/main/index.html",
       "subtitle": "web entry point",
-      "x": 1120,
+      "x": 1540,
       "y": 1420
     },
     {
@@ -539,8 +754,68 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/data_uk_dno_and_tso/blob/main/README.md",
       "subtitle": "human entry point",
-      "x": 1120,
+      "x": 1540,
       "y": 1540
+    },
+    {
+      "id": "repo::gb-electricity-ui",
+      "kind": "future",
+      "label": "gb-electricity-ui",
+      "layer": "future",
+      "source": "https://github.com/Ventusltd/gb-electricity-ui",
+      "subtitle": "14 files \u00b7 main",
+      "x": 1960,
+      "y": 300
+    },
+    {
+      "id": "file::gb-electricity-ui::.github/workflows/pages.yml",
+      "kind": "schema",
+      "label": "pages.yml",
+      "layer": "schemas",
+      "source": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/.github/workflows/pages.yml",
+      "subtitle": "automation workflow",
+      "x": 1960,
+      "y": 1180
+    },
+    {
+      "id": "file::gb-electricity-ui::index.html",
+      "kind": "library",
+      "label": "index.html",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/index.html",
+      "subtitle": "web entry point",
+      "x": 1960,
+      "y": 1300
+    },
+    {
+      "id": "file::gb-electricity-ui::README.md",
+      "kind": "library",
+      "label": "README.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/README.md",
+      "subtitle": "human entry point",
+      "x": 1960,
+      "y": 1420
+    },
+    {
+      "id": "file::gb-electricity-ui::uk_energy_tracking_v6/generation_history/index.html",
+      "kind": "library",
+      "label": "index.html",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/uk_energy_tracking_v6/generation_history/index.html",
+      "subtitle": "web entry point",
+      "x": 1960,
+      "y": 1540
+    },
+    {
+      "id": "file::gb-electricity-ui::uk_energy_tracking_v6/index.html",
+      "kind": "library",
+      "label": "index.html",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/gb-electricity-ui/blob/main/uk_energy_tracking_v6/index.html",
+      "subtitle": "web entry point",
+      "x": 1960,
+      "y": 1660
     },
     {
       "id": "repo::globalgrid2050",
@@ -548,8 +823,8 @@
       "label": "globalgrid2050",
       "layer": "apps",
       "source": "https://github.com/Ventusltd/globalgrid2050",
-      "subtitle": "2223 files \u00b7 main",
-      "x": 1540,
+      "subtitle": "2224 files \u00b7 main",
+      "x": 2380,
       "y": 300
     },
     {
@@ -559,7 +834,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/000_freeze_all_workflows_to_manual.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 1180
     },
     {
@@ -569,7 +844,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v4-detailed-disclaimer.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 1300
     },
     {
@@ -579,7 +854,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-all-apps-a4-print-formatting.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 1420
     },
     {
@@ -589,7 +864,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-external-analysis-dashboard-links.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 1540
     },
     {
@@ -599,7 +874,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-gis-sld-operating-asset-layers.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 1660
     },
     {
@@ -609,7 +884,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-gis-sld-print-formatting.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 1780
     },
     {
@@ -619,7 +894,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-gis-sld-print-map-pack.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 1900
     },
     {
@@ -629,7 +904,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-print-v2-compact-report-mode.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 2020
     },
     {
@@ -639,7 +914,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-print-v3-financials-patch.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 2140
     },
     {
@@ -649,8 +924,128 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v7-gis-sld-array-visibility-and-mwp-sizing.yml",
       "subtitle": "automation workflow",
-      "x": 1540,
+      "x": 2380,
       "y": 2260
+    },
+    {
+      "id": "repo::globalgrid2050-hompage",
+      "kind": "future",
+      "label": "globalgrid2050-hompage",
+      "layer": "future",
+      "source": "https://github.com/Ventusltd/globalgrid2050-hompage",
+      "subtitle": "19 files \u00b7 main",
+      "x": 2800,
+      "y": 300
+    },
+    {
+      "id": "file::globalgrid2050-hompage::.github/workflows/gridbot_federation_systems_map.yml",
+      "kind": "schema",
+      "label": "gridbot_federation_systems_m",
+      "layer": "schemas",
+      "source": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/.github/workflows/gridbot_federation_systems_map.yml",
+      "subtitle": "automation workflow",
+      "x": 2800,
+      "y": 1180
+    },
+    {
+      "id": "file::globalgrid2050-hompage::.github/workflows/pages.yml",
+      "kind": "schema",
+      "label": "pages.yml",
+      "layer": "schemas",
+      "source": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/.github/workflows/pages.yml",
+      "subtitle": "automation workflow",
+      "x": 2800,
+      "y": 1300
+    },
+    {
+      "id": "file::globalgrid2050-hompage::anchor_AI_MUST_READ.md",
+      "kind": "library",
+      "label": "anchor_AI_MUST_READ.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/anchor_AI_MUST_READ.md",
+      "subtitle": "AI boot and federation manifest",
+      "x": 2800,
+      "y": 1420
+    },
+    {
+      "id": "file::globalgrid2050-hompage::index.html",
+      "kind": "library",
+      "label": "index.html",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/index.html",
+      "subtitle": "web entry point",
+      "x": 2800,
+      "y": 1540
+    },
+    {
+      "id": "file::globalgrid2050-hompage::README.md",
+      "kind": "library",
+      "label": "README.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/globalgrid2050-hompage/blob/main/README.md",
+      "subtitle": "human entry point",
+      "x": 2800,
+      "y": 1660
+    },
+    {
+      "id": "repo::pandapower",
+      "kind": "future",
+      "label": "pandapower",
+      "layer": "future",
+      "source": "https://github.com/Ventusltd/pandapower",
+      "subtitle": "1390 files \u00b7 develop",
+      "x": 3220,
+      "y": 300
+    },
+    {
+      "id": "file::pandapower::.github/workflows/github_test_action.yml",
+      "kind": "schema",
+      "label": "github_test_action.yml",
+      "layer": "schemas",
+      "source": "https://github.com/Ventusltd/pandapower/blob/develop/.github/workflows/github_test_action.yml",
+      "subtitle": "automation workflow",
+      "x": 3220,
+      "y": 1180
+    },
+    {
+      "id": "file::pandapower::.github/workflows/test_release.yml",
+      "kind": "schema",
+      "label": "test_release.yml",
+      "layer": "schemas",
+      "source": "https://github.com/Ventusltd/pandapower/blob/develop/.github/workflows/test_release.yml",
+      "subtitle": "automation workflow",
+      "x": 3220,
+      "y": 1300
+    },
+    {
+      "id": "file::pandapower::.github/workflows/upload_release.yml",
+      "kind": "schema",
+      "label": "upload_release.yml",
+      "layer": "schemas",
+      "source": "https://github.com/Ventusltd/pandapower/blob/develop/.github/workflows/upload_release.yml",
+      "subtitle": "automation workflow",
+      "x": 3220,
+      "y": 1420
+    },
+    {
+      "id": "repo::pv-arc-protection-circuit",
+      "kind": "future",
+      "label": "pv-arc-protection-circuit",
+      "layer": "future",
+      "source": "https://github.com/Ventusltd/pv-arc-protection-circuit",
+      "subtitle": "3 files \u00b7 main",
+      "x": 3640,
+      "y": 300
+    },
+    {
+      "id": "file::pv-arc-protection-circuit::README.md",
+      "kind": "library",
+      "label": "README.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/pv-arc-protection-circuit/blob/main/README.md",
+      "subtitle": "human entry point",
+      "x": 3640,
+      "y": 1180
     },
     {
       "id": "repo::registry_of_all_content_in_repos_and_dependencies",
@@ -658,8 +1053,8 @@
       "label": "registry_of_all_content_in_repos_and_dependencies",
       "layer": "data",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
-      "subtitle": "29 files \u00b7 main",
-      "x": 1960,
+      "subtitle": "31 files \u00b7 main",
+      "x": 4060,
       "y": 300
     },
     {
@@ -669,7 +1064,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/.github/workflows/registry.yml",
       "subtitle": "automation workflow",
-      "x": 1960,
+      "x": 4060,
       "y": 1180
     },
     {
@@ -679,7 +1074,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/index.html",
       "subtitle": "web entry point",
-      "x": 1960,
+      "x": 4060,
       "y": 1300
     },
     {
@@ -689,7 +1084,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/README.md",
       "subtitle": "human entry point",
-      "x": 1960,
+      "x": 4060,
       "y": 1420
     },
     {
@@ -699,7 +1094,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/graph_latest.json",
       "subtitle": "kernel registry artifact",
-      "x": 1960,
+      "x": 4060,
       "y": 1540
     },
     {
@@ -709,8 +1104,48 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/latest.json",
       "subtitle": "kernel registry artifact",
-      "x": 1960,
+      "x": 4060,
       "y": 1660
+    },
+    {
+      "id": "repo::Solar-PV-Hybrid-and-off-grid",
+      "kind": "future",
+      "label": "Solar-PV-Hybrid-and-off-grid",
+      "layer": "future",
+      "source": "https://github.com/Ventusltd/Solar-PV-Hybrid-and-off-grid",
+      "subtitle": "1 files \u00b7 main",
+      "x": 4480,
+      "y": 300
+    },
+    {
+      "id": "file::Solar-PV-Hybrid-and-off-grid::README.md",
+      "kind": "library",
+      "label": "README.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/Solar-PV-Hybrid-and-off-grid/blob/main/README.md",
+      "subtitle": "human entry point",
+      "x": 4480,
+      "y": 1180
+    },
+    {
+      "id": "repo::solar-repowering-whitepaper",
+      "kind": "future",
+      "label": "solar-repowering-whitepaper",
+      "layer": "future",
+      "source": "https://github.com/Ventusltd/solar-repowering-whitepaper",
+      "subtitle": "2 files \u00b7 main",
+      "x": 4900,
+      "y": 300
+    },
+    {
+      "id": "file::solar-repowering-whitepaper::README.md",
+      "kind": "library",
+      "label": "README.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/solar-repowering-whitepaper/blob/main/README.md",
+      "subtitle": "human entry point",
+      "x": 4900,
+      "y": 1180
     },
     {
       "id": "repo::spiders",
@@ -719,7 +1154,7 @@
       "layer": "engines",
       "source": "https://github.com/Ventusltd/spiders",
       "subtitle": "51 files \u00b7 main",
-      "x": 2380,
+      "x": 5320,
       "y": 300
     },
     {
@@ -729,7 +1164,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/spiders/blob/main/.github/workflows/spider_maya_v1_scan.yml",
       "subtitle": "automation workflow",
-      "x": 2380,
+      "x": 5320,
       "y": 1180
     },
     {
@@ -739,7 +1174,7 @@
       "layer": "schemas",
       "source": "https://github.com/Ventusltd/spiders/blob/main/.github/workflows/spider_printer_registry_smoke.yml",
       "subtitle": "automation workflow",
-      "x": 2380,
+      "x": 5320,
       "y": 1300
     },
     {
@@ -749,7 +1184,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/spiders/blob/main/index.html",
       "subtitle": "web entry point",
-      "x": 2380,
+      "x": 5320,
       "y": 1420
     },
     {
@@ -759,7 +1194,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/spiders/blob/main/README.md",
       "subtitle": "human entry point",
-      "x": 2380,
+      "x": 5320,
       "y": 1540
     },
     {
@@ -769,7 +1204,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/spiders/blob/main/site_versions/root_index/v20260704/index.html",
       "subtitle": "web entry point",
-      "x": 2380,
+      "x": 5320,
       "y": 1660
     },
     {
@@ -779,7 +1214,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/spiders/blob/main/species/federation-spider/index.html",
       "subtitle": "web entry point",
-      "x": 2380,
+      "x": 5320,
       "y": 1780
     },
     {
@@ -789,7 +1224,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/spiders/blob/main/species/seer-spider/index.html",
       "subtitle": "web entry point",
-      "x": 2380,
+      "x": 5320,
       "y": 1900
     },
     {
@@ -799,7 +1234,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/spiders/blob/main/spider_maya/v1/config/sources.json",
       "subtitle": "source registry",
-      "x": 2380,
+      "x": 5320,
       "y": 2020
     },
     {
@@ -809,7 +1244,7 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/spiders/blob/main/spider_maya/v1/index.html",
       "subtitle": "web entry point",
-      "x": 2380,
+      "x": 5320,
       "y": 2140
     },
     {
@@ -819,8 +1254,68 @@
       "layer": "libs",
       "source": "https://github.com/Ventusltd/spiders/blob/main/spider_printer_v1/index.html",
       "subtitle": "web entry point",
-      "x": 2380,
+      "x": 5320,
       "y": 2260
+    },
+    {
+      "id": "repo::youengineer-code-review",
+      "kind": "future",
+      "label": "youengineer-code-review",
+      "layer": "future",
+      "source": "https://github.com/Ventusltd/youengineer-code-review",
+      "subtitle": "42 files \u00b7 main",
+      "x": 5740,
+      "y": 300
+    },
+    {
+      "id": "file::youengineer-code-review::civilisation-atlas-v8/index.html",
+      "kind": "library",
+      "label": "index.html",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/youengineer-code-review/blob/main/civilisation-atlas-v8/index.html",
+      "subtitle": "web entry point",
+      "x": 5740,
+      "y": 1180
+    },
+    {
+      "id": "file::youengineer-code-review::index.html",
+      "kind": "library",
+      "label": "index.html",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/youengineer-code-review/blob/main/index.html",
+      "subtitle": "web entry point",
+      "x": 5740,
+      "y": 1300
+    },
+    {
+      "id": "file::youengineer-code-review::README.md",
+      "kind": "library",
+      "label": "README.md",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/youengineer-code-review/blob/main/README.md",
+      "subtitle": "human entry point",
+      "x": 5740,
+      "y": 1420
+    },
+    {
+      "id": "file::youengineer-code-review::world-cup-knockout-v5/index.html",
+      "kind": "library",
+      "label": "index.html",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/youengineer-code-review/blob/main/world-cup-knockout-v5/index.html",
+      "subtitle": "web entry point",
+      "x": 5740,
+      "y": 1540
+    },
+    {
+      "id": "file::youengineer-code-review::world-cup-knockout/index.html",
+      "kind": "library",
+      "label": "index.html",
+      "layer": "libs",
+      "source": "https://github.com/Ventusltd/youengineer-code-review/blob/main/world-cup-knockout/index.html",
+      "subtitle": "web entry point",
+      "x": 5740,
+      "y": 1660
     }
   ],
   "principles": [
