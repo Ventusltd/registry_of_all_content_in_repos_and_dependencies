@@ -66,6 +66,7 @@ def run_builder(reason: str, before: dict | None, live: dict | None) -> None:
 
 
 def main() -> int:
+    build_registry.apply_config_scope()
     try:
         current = authoritative_registry()
     except Exception as exc:
