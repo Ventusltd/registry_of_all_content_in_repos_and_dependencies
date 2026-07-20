@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0011`
-Generated at: `2026-07-06T19:47:17Z`
+Authoritative version: `0012`
+Generated at: `2026-07-20T08:32:58Z`
 
 ## Totals
 
 - Repositories: 14
-- Files: 4441
-- Reachable: 4441
+- Files: 4447
+- Reachable: 4447
 - Unreachable: 0
 
 ## Boot sequence
@@ -767,7 +767,7 @@ Role: retiring monolith, atlas and application source
 
 Default branch: `main`
 
-File count: 2224
+File count: 2229
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -892,6 +892,7 @@ File count: 2224
 | verified | workflow | [.github/workflows/gridbot_sunrise_sunset_visible_attribution.yml](https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/gridbot_sunrise_sunset_visible_attribution.yml) | automation workflow |
 | verified | workflow | [.github/workflows/gridbot_v3_consolidated_price_history.yml](https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/gridbot_v3_consolidated_price_history.yml) | automation workflow |
 | verified | workflow | [.github/workflows/gridbot_v6_same_slot_reconciliation_audit.yml](https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/gridbot_v6_same_slot_reconciliation_audit.yml) | automation workflow |
+| verified | workflow | [.github/workflows/homepage-restore-point-check.yml](https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/homepage-restore-point-check.yml) | automation workflow |
 | verified | workflow | [.github/workflows/inspect_data_science_discipline.yml](https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/inspect_data_science_discipline.yml) | automation workflow |
 | verified | workflow | [.github/workflows/install_solar_dc_er_section.yml](https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/install_solar_dc_er_section.yml) | automation workflow |
 | verified | workflow | [.github/workflows/install_solar_dc_er_subsections.yml](https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/install_solar_dc_er_subsections.yml) | automation workflow |
@@ -1809,6 +1810,9 @@ File count: 2224
 | verified | document | [gridbot_reports/v7_migration_from_v6.md](https://github.com/Ventusltd/globalgrid2050/blob/main/gridbot_reports/v7_migration_from_v6.md) | repository content |
 | verified | document | [gridbot_reports/v8_bess_tabs_patch_plan.md](https://github.com/Ventusltd/globalgrid2050/blob/main/gridbot_reports/v8_bess_tabs_patch_plan.md) | repository content |
 | verified | json | [heavy_emitters_uk.json](https://github.com/Ventusltd/globalgrid2050/blob/main/heavy_emitters_uk.json) | repository content |
+| verified | web | [homepage_versions/homepage_v001.html](https://github.com/Ventusltd/globalgrid2050/blob/main/homepage_versions/homepage_v001.html) | repository content |
+| verified | document | [homepage_versions/README.md](https://github.com/Ventusltd/globalgrid2050/blob/main/homepage_versions/README.md) | human entry point |
+| verified | web | [how_to_work_with_globalgrid2050/index.html](https://github.com/Ventusltd/globalgrid2050/blob/main/how_to_work_with_globalgrid2050/index.html) | web entry point |
 | verified | geojson | [hs2.geojson](https://github.com/Ventusltd/globalgrid2050/blob/main/hs2.geojson) | geospatial layer |
 | binary | binary | [hv_interface.jpg](https://github.com/Ventusltd/globalgrid2050/blob/main/hv_interface.jpg) | repository content |
 | verified | web | [index.html](https://github.com/Ventusltd/globalgrid2050/blob/main/index.html) | web entry point |
@@ -2323,6 +2327,7 @@ File count: 2224
 | verified | code | [scripts/gridbot_v6_same_slot_reconciliation_audit.py](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/gridbot_v6_same_slot_reconciliation_audit.py) | builder or automation script |
 | verified | code | [scripts/inspect_data_science_discipline.py](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/inspect_data_science_discipline.py) | builder or automation script |
 | verified | code | [scripts/isolate_uk_energy_tracking_v2.py](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/isolate_uk_energy_tracking_v2.py) | builder or automation script |
+| verified | code | [scripts/measure_homepage_version.py](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/measure_homepage_version.py) | builder or automation script |
 | verified | code | [scripts/merge_generation_sources_annual_to_master_v6.py](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/merge_generation_sources_annual_to_master_v6.py) | builder or automation script |
 | verified | code | [scripts/modularise_uk_energy_tracking_v4.py](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/modularise_uk_energy_tracking_v4.py) | builder or automation script |
 | verified | code | [scripts/modularise_v6_cable_geometry.py](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/modularise_v6_cable_geometry.py) | builder or automation script |
@@ -4447,7 +4452,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 31
+File count: 32
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -4475,6 +4480,7 @@ File count: 31
 | verified | json | [registry/registry_v0008.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0008.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0009.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0009.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0010.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0010.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0011.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0011.json) | kernel registry artifact |
 | verified | code | [scripts/build_graph_latest.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_graph_latest.py) | builder or automation script |
 | verified | code | [scripts/build_kernel.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_kernel.py) | builder or automation script |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |

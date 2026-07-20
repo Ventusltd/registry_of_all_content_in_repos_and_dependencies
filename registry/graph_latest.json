@@ -5,9 +5,9 @@
     "width": 4200
   },
   "dataSource": {
-    "generatedAt": "2026-07-06T19:47:17Z",
-    "jsonPath": "registry/registry_v0011.json",
-    "registryVersion": 11,
+    "generatedAt": "2026-07-20T08:32:58Z",
+    "jsonPath": "registry/registry_v0012.json",
+    "registryVersion": 12,
     "repo": "Ventusltd/registry_of_all_content_in_repos_and_dependencies"
   },
   "edgeTypes": {
@@ -823,7 +823,7 @@
       "label": "globalgrid2050",
       "layer": "apps",
       "source": "https://github.com/Ventusltd/globalgrid2050",
-      "subtitle": "2224 files \u00b7 main",
+      "subtitle": "2229 files \u00b7 main",
       "x": 2380,
       "y": 300
     },
@@ -1053,7 +1053,7 @@
       "label": "registry_of_all_content_in_repos_and_dependencies",
       "layer": "data",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
-      "subtitle": "31 files \u00b7 main",
+      "subtitle": "32 files \u00b7 main",
       "x": 4060,
       "y": 300
     },

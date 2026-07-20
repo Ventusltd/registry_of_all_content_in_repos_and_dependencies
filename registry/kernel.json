@@ -56,8 +56,8 @@
       "repo": "spiders"
     }
   ],
-  "generated_at": "2026-07-06T19:47:17Z",
-  "registry_version": 11,
+  "generated_at": "2026-07-20T08:32:58Z",
+  "registry_version": 12,
   "repos": [
     {
       "default_branch": "main",
@@ -546,7 +546,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 2224,
+      "file_count": 2229,
       "html_url": "https://github.com/Ventusltd/globalgrid2050",
       "important_files": [
         {
@@ -1510,6 +1510,14 @@
           "type": "workflow"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/homepage-restore-point-check.yml",
+          "path": ".github/workflows/homepage-restore-point-check.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/homepage-restore-point-check.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/inspect_data_science_discipline.yml",
           "path": ".github/workflows/inspect_data_science_discipline.yml",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/inspect_data_science_discipline.yml",
@@ -2326,6 +2334,22 @@
           "type": "web"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/homepage_versions/README.md",
+          "path": "homepage_versions/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/homepage_versions/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/how_to_work_with_globalgrid2050/index.html",
+          "path": "how_to_work_with_globalgrid2050/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/how_to_work_with_globalgrid2050/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/index.html",
           "path": "index.html",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/index.html",
@@ -2782,7 +2806,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 31,
+      "file_count": 32,
       "html_url": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
       "important_files": [
         {
@@ -3075,10 +3099,10 @@
     }
   ],
   "schema_version": "globalgrid2050.kernel_boot.v1",
-  "source_registry": "registry/registry_v0011.json",
+  "source_registry": "registry/registry_v0012.json",
   "totals": {
-    "file_count": 4441,
-    "reachable_count": 4441,
+    "file_count": 4447,
+    "reachable_count": 4447,
     "repo_count": 14,
     "unreachable_count": 0
   }
