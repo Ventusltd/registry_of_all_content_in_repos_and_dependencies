@@ -56,8 +56,8 @@
       "repo": "spiders"
     }
   ],
-  "generated_at": "2026-07-20T08:32:58Z",
-  "registry_version": 12,
+  "generated_at": "2026-07-27T09:21:12Z",
+  "registry_version": 13,
   "repos": [
     {
       "default_branch": "main",
@@ -546,7 +546,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 2229,
+      "file_count": 2233,
       "html_url": "https://github.com/Ventusltd/globalgrid2050",
       "important_files": [
         {
@@ -2326,6 +2326,22 @@
           "type": "web"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/employers_competence/index.html",
+          "path": "employers_competence/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/employers_competence/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/employers_competence/quality_assurance/index.html",
+          "path": "employers_competence/quality_assurance/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/employers_competence/quality_assurance/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/employers_requirments_large_scale_solar/print/index.html",
           "path": "employers_requirments_large_scale_solar/print/index.html",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/employers_requirments_large_scale_solar/print/index.html",
@@ -2806,7 +2822,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 32,
+      "file_count": 34,
       "html_url": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
       "important_files": [
         {
@@ -3099,10 +3115,10 @@
     }
   ],
   "schema_version": "globalgrid2050.kernel_boot.v1",
-  "source_registry": "registry/registry_v0012.json",
+  "source_registry": "registry/registry_v0013.json",
   "totals": {
-    "file_count": 4447,
-    "reachable_count": 4447,
+    "file_count": 4453,
+    "reachable_count": 4453,
     "repo_count": 14,
     "unreachable_count": 0
   }
