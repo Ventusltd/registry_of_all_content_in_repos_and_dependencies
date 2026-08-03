@@ -56,12 +56,12 @@
       "repo": "spiders"
     }
   ],
-  "generated_at": "2026-07-27T09:21:12Z",
-  "registry_version": 13,
+  "generated_at": "2026-08-03T08:56:07Z",
+  "registry_version": 14,
   "repos": [
     {
       "default_branch": "main",
-      "file_count": 147,
+      "file_count": 148,
       "html_url": "https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos",
       "important_files": [
         {
@@ -546,7 +546,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 2233,
+      "file_count": 2234,
       "html_url": "https://github.com/Ventusltd/globalgrid2050",
       "important_files": [
         {
@@ -2430,6 +2430,14 @@
           "type": "web"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/restore_points/2026-07-28-before-v9-live-development-link/README.md",
+          "path": "restore_points/2026-07-28-before-v9-live-development-link/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/restore_points/2026-07-28-before-v9-live-development-link/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/solar-bess-topology-v3/index.html",
           "path": "solar-bess-topology-v3/index.html",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/solar-bess-topology-v3/index.html",
@@ -2822,7 +2830,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 34,
+      "file_count": 36,
       "html_url": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
       "important_files": [
         {
@@ -3115,10 +3123,10 @@
     }
   ],
   "schema_version": "globalgrid2050.kernel_boot.v1",
-  "source_registry": "registry/registry_v0013.json",
+  "source_registry": "registry/registry_v0014.json",
   "totals": {
-    "file_count": 4453,
-    "reachable_count": 4453,
+    "file_count": 4457,
+    "reachable_count": 4457,
     "repo_count": 14,
     "unreachable_count": 0
   }

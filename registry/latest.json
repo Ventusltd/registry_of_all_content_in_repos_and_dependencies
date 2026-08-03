@@ -1,8 +1,8 @@
 {
-  "authoritative_version": 13,
+  "authoritative_version": 14,
   "graph_path": "registry/graph_latest.json",
-  "json_path": "registry/registry_v0013.json",
+  "json_path": "registry/registry_v0014.json",
   "kernel_path": "registry/kernel.json",
   "md_path": "registry/registry.md",
-  "updated_at": "2026-07-27T09:21:12Z"
+  "updated_at": "2026-08-03T08:56:07Z"
 }

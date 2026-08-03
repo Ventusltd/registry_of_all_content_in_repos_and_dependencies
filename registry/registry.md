@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0013`
-Generated at: `2026-07-27T09:21:12Z`
+Authoritative version: `0014`
+Generated at: `2026-08-03T08:56:07Z`
 
 ## Totals
 
 - Repositories: 14
-- Files: 4453
-- Reachable: 4453
+- Files: 4457
+- Reachable: 4457
 - Unreachable: 0
 
 ## Boot sequence
@@ -34,7 +34,7 @@ Role: federation node and edge control ledger
 
 Default branch: `main`
 
-File count: 147
+File count: 148
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -169,6 +169,7 @@ File count: 147
 | verified | json | [reports/json/SPIDER_MAYA_LATEST.json](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/json/SPIDER_MAYA_LATEST.json) | repository content |
 | verified | document | [reports/PO3_SPLIT_GATE_LATEST.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/PO3_SPLIT_GATE_LATEST.md) | repository content |
 | verified | document | [reports/PO_LEDGER.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/PO_LEDGER.md) | repository content |
+| verified | document | [reports/source-notices/2026-07-29-v10-pv-dc-modelling-evidence.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/source-notices/2026-07-29-v10-pv-dc-modelling-evidence.md) | repository content |
 | verified | document | [reports/SPIDER_MAYA_LATEST.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/SPIDER_MAYA_LATEST.md) | repository content |
 | verified | schema | [schemas/federation_manifest.schema.json](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/schemas/federation_manifest.schema.json) | data contract or schema |
 | verified | code | [scripts/build_declared_cartridges.py](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/scripts/build_declared_cartridges.py) | builder or automation script |
@@ -767,7 +768,7 @@ Role: retiring monolith, atlas and application source
 
 Default branch: `main`
 
-File count: 2233
+File count: 2234
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -2167,6 +2168,7 @@ File count: 2233
 | verified | tabular | [repository_size_history.csv](https://github.com/Ventusltd/globalgrid2050/blob/main/repository_size_history.csv) | repository content |
 | verified | document | [REPOSITORY_SIZE_REPORT.md](https://github.com/Ventusltd/globalgrid2050/blob/main/REPOSITORY_SIZE_REPORT.md) | repository content |
 | verified | document | [restore_points/2026-07-27-pre-solar-dc-v7-homepage-link/RESTORE_POINT.md](https://github.com/Ventusltd/globalgrid2050/blob/main/restore_points/2026-07-27-pre-solar-dc-v7-homepage-link/RESTORE_POINT.md) | repository content |
+| verified | document | [restore_points/2026-07-28-before-v9-live-development-link/README.md](https://github.com/Ventusltd/globalgrid2050/blob/main/restore_points/2026-07-28-before-v9-live-development-link/README.md) | human entry point |
 | verified | file | [scripts/__pycache__/fetch_11kv_ukpn.cpython-311.pyc](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/__pycache__/fetch_11kv_ukpn.cpython-311.pyc) | builder or automation script |
 | verified | file | [scripts/__pycache__/fetch_220kv_data.cpython-311.pyc](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/__pycache__/fetch_220kv_data.cpython-311.pyc) | builder or automation script |
 | verified | file | [scripts/__pycache__/fetch_33kv_data.cpython-311.pyc](https://github.com/Ventusltd/globalgrid2050/blob/main/scripts/__pycache__/fetch_33kv_data.cpython-311.pyc) | builder or automation script |
@@ -4456,7 +4458,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 34
+File count: 36
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -4474,6 +4476,7 @@ File count: 34
 | verified | document | [registry/README.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/README.md) | human entry point |
 | verified | json | [registry/receipts/20260706T094928Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260706T094928Z_reconcile_trigger.json) | kernel registry artifact |
 | verified | json | [registry/receipts/20260720T083251Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260720T083251Z_reconcile_trigger.json) | kernel registry artifact |
+| verified | json | [registry/receipts/20260727T092108Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260727T092108Z_reconcile_trigger.json) | kernel registry artifact |
 | verified | document | [registry/registry.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry.md) | kernel registry artifact |
 | verified | json | [registry/registry_v0001.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0001.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0002.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0002.json) | kernel registry artifact |
@@ -4487,6 +4490,7 @@ File count: 34
 | verified | json | [registry/registry_v0010.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0010.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0011.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0011.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0012.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0012.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0013.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0013.json) | kernel registry artifact |
 | verified | code | [scripts/build_graph_latest.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_graph_latest.py) | builder or automation script |
 | verified | code | [scripts/build_kernel.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_kernel.py) | builder or automation script |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |
