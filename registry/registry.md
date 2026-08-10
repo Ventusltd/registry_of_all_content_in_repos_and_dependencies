@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0014`
-Generated at: `2026-08-03T08:56:07Z`
+Authoritative version: `0015`
+Generated at: `2026-08-10T07:03:08Z`
 
 ## Totals
 
 - Repositories: 14
-- Files: 4457
-- Reachable: 4457
+- Files: 4460
+- Reachable: 4460
 - Unreachable: 0
 
 ## Boot sequence
@@ -768,7 +768,7 @@ Role: retiring monolith, atlas and application source
 
 Default branch: `main`
 
-File count: 2234
+File count: 2235
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -2999,6 +2999,7 @@ File count: 2234
 | verified | document | [uk_solar_in-planning-1-50mw.md](https://github.com/Ventusltd/globalgrid2050/blob/main/uk_solar_in-planning-1-50mw.md) | repository content |
 | verified | geojson | [uk_trunk_roads.geojson](https://github.com/Ventusltd/globalgrid2050/blob/main/uk_trunk_roads.geojson) | geospatial layer |
 | verified | document | [uk_utility_scale_solar_development_greenfield_to_epc_signature.md](https://github.com/Ventusltd/globalgrid2050/blob/main/uk_utility_scale_solar_development_greenfield_to_epc_signature.md) | repository content |
+| verified | web | [v11/index.html](https://github.com/Ventusltd/globalgrid2050/blob/main/v11/index.html) | web entry point |
 | verified | code | [ventus-core.js](https://github.com/Ventusltd/globalgrid2050/blob/main/ventus-core.js) | repository content |
 | verified | web | [ventus.css](https://github.com/Ventusltd/globalgrid2050/blob/main/ventus.css) | repository content |
 | binary | binary | [VentusLtdLogo.png](https://github.com/Ventusltd/globalgrid2050/blob/main/VentusLtdLogo.png) | repository content |
@@ -4458,7 +4459,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 36
+File count: 38
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -4477,6 +4478,7 @@ File count: 36
 | verified | json | [registry/receipts/20260706T094928Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260706T094928Z_reconcile_trigger.json) | kernel registry artifact |
 | verified | json | [registry/receipts/20260720T083251Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260720T083251Z_reconcile_trigger.json) | kernel registry artifact |
 | verified | json | [registry/receipts/20260727T092108Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260727T092108Z_reconcile_trigger.json) | kernel registry artifact |
+| verified | json | [registry/receipts/20260803T085605Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260803T085605Z_reconcile_trigger.json) | kernel registry artifact |
 | verified | document | [registry/registry.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry.md) | kernel registry artifact |
 | verified | json | [registry/registry_v0001.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0001.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0002.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0002.json) | kernel registry artifact |
@@ -4491,6 +4493,7 @@ File count: 36
 | verified | json | [registry/registry_v0011.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0011.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0012.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0012.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0013.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0013.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0014.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0014.json) | kernel registry artifact |
 | verified | code | [scripts/build_graph_latest.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_graph_latest.py) | builder or automation script |
 | verified | code | [scripts/build_kernel.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_kernel.py) | builder or automation script |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |
