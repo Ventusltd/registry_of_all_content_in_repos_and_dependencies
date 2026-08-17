@@ -56,12 +56,12 @@
       "repo": "spiders"
     }
   ],
-  "generated_at": "2026-08-10T07:03:08Z",
-  "registry_version": 15,
+  "generated_at": "2026-08-17T06:27:00Z",
+  "registry_version": 16,
   "repos": [
     {
       "default_branch": "main",
-      "file_count": 148,
+      "file_count": 151,
       "html_url": "https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos",
       "important_files": [
         {
@@ -2838,7 +2838,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 38,
+      "file_count": 40,
       "html_url": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
       "important_files": [
         {
@@ -3131,10 +3131,10 @@
     }
   ],
   "schema_version": "globalgrid2050.kernel_boot.v1",
-  "source_registry": "registry/registry_v0015.json",
+  "source_registry": "registry/registry_v0016.json",
   "totals": {
-    "file_count": 4460,
-    "reachable_count": 4460,
+    "file_count": 4465,
+    "reachable_count": 4465,
     "repo_count": 14,
     "unreachable_count": 0
   }

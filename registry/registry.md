@@ -2,14 +2,14 @@
 
 This file is generated from the authoritative JSON snapshot. Do not edit it by hand.
 
-Authoritative version: `0015`
-Generated at: `2026-08-10T07:03:08Z`
+Authoritative version: `0016`
+Generated at: `2026-08-17T06:27:00Z`
 
 ## Totals
 
 - Repositories: 14
-- Files: 4460
-- Reachable: 4460
+- Files: 4465
+- Reachable: 4465
 - Unreachable: 0
 
 ## Boot sequence
@@ -34,7 +34,7 @@ Role: federation node and edge control ledger
 
 Default branch: `main`
 
-File count: 148
+File count: 151
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -167,15 +167,18 @@ File count: 148
 | verified | json | [reports/json/FEDERATION_PUBLISH_LATEST.json](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/json/FEDERATION_PUBLISH_LATEST.json) | repository content |
 | verified | json | [reports/json/PO3_SPLIT_GATE_LATEST.json](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/json/PO3_SPLIT_GATE_LATEST.json) | repository content |
 | verified | json | [reports/json/SPIDER_MAYA_LATEST.json](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/json/SPIDER_MAYA_LATEST.json) | repository content |
+| verified | json | [reports/json/TRUSELF_FEDERATION_20260812_AUDIT.json](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/json/TRUSELF_FEDERATION_20260812_AUDIT.json) | repository content |
 | verified | document | [reports/PO3_SPLIT_GATE_LATEST.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/PO3_SPLIT_GATE_LATEST.md) | repository content |
 | verified | document | [reports/PO_LEDGER.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/PO_LEDGER.md) | repository content |
 | verified | document | [reports/source-notices/2026-07-29-v10-pv-dc-modelling-evidence.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/source-notices/2026-07-29-v10-pv-dc-modelling-evidence.md) | repository content |
 | verified | document | [reports/SPIDER_MAYA_LATEST.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/SPIDER_MAYA_LATEST.md) | repository content |
+| verified | document | [reports/TRUSELF_FEDERATION_20260812_AUDIT.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/reports/TRUSELF_FEDERATION_20260812_AUDIT.md) | repository content |
 | verified | schema | [schemas/federation_manifest.schema.json](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/schemas/federation_manifest.schema.json) | data contract or schema |
 | verified | code | [scripts/build_declared_cartridges.py](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/scripts/build_declared_cartridges.py) | builder or automation script |
 | verified | code | [scripts/build_federation_map.py](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/scripts/build_federation_map.py) | builder or automation script |
 | verified | code | [scripts/publish_federation_json.py](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/scripts/publish_federation_json.py) | builder or automation script |
 | verified | code | [scripts/render_internal_dashboard.py](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/scripts/render_internal_dashboard.py) | builder or automation script |
+| verified | document | [trueself/20260812-globalgrid2050-federation-trueself-chatgpt.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/trueself/20260812-globalgrid2050-federation-trueself-chatgpt.md) | repository content |
 | verified | document | [ventus_spider_dna_study/command_archetype_spider_dna.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/ventus_spider_dna_study/command_archetype_spider_dna.md) | repository content |
 | verified | document | [ventus_spider_dna_study/README.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/ventus_spider_dna_study/README.md) | human entry point |
 | verified | document | [ventus_spider_dna_study/SPIDER_AS_COSMIC_MAYA_REMOVER.md](https://github.com/Ventusltd/data-federation-map-for-globalgrid2050-all-repos/blob/main/ventus_spider_dna_study/SPIDER_AS_COSMIC_MAYA_REMOVER.md) | repository content |
@@ -4459,7 +4462,7 @@ Role: authoritative kernel registry of repo contents and dependencies
 
 Default branch: `main`
 
-File count: 38
+File count: 40
 
 | State | Type | Path | Role |
 |---|---|---|---|
@@ -4479,6 +4482,7 @@ File count: 38
 | verified | json | [registry/receipts/20260720T083251Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260720T083251Z_reconcile_trigger.json) | kernel registry artifact |
 | verified | json | [registry/receipts/20260727T092108Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260727T092108Z_reconcile_trigger.json) | kernel registry artifact |
 | verified | json | [registry/receipts/20260803T085605Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260803T085605Z_reconcile_trigger.json) | kernel registry artifact |
+| verified | json | [registry/receipts/20260810T070300Z_reconcile_trigger.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/receipts/20260810T070300Z_reconcile_trigger.json) | kernel registry artifact |
 | verified | document | [registry/registry.md](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry.md) | kernel registry artifact |
 | verified | json | [registry/registry_v0001.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0001.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0002.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0002.json) | kernel registry artifact |
@@ -4494,6 +4498,7 @@ File count: 38
 | verified | json | [registry/registry_v0012.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0012.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0013.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0013.json) | kernel registry artifact |
 | verified | json | [registry/registry_v0014.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0014.json) | kernel registry artifact |
+| verified | json | [registry/registry_v0015.json](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/registry/registry_v0015.json) | kernel registry artifact |
 | verified | code | [scripts/build_graph_latest.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_graph_latest.py) | builder or automation script |
 | verified | code | [scripts/build_kernel.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_kernel.py) | builder or automation script |
 | verified | code | [scripts/build_registry.py](https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies/blob/main/scripts/build_registry.py) | builder or automation script |
