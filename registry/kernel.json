@@ -56,8 +56,8 @@
       "repo": "spiders"
     }
   ],
-  "generated_at": "2026-08-17T06:27:00Z",
-  "registry_version": 16,
+  "generated_at": "2026-08-24T06:31:02Z",
+  "registry_version": 17,
   "repos": [
     {
       "default_branch": "main",
@@ -546,7 +546,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 2235,
+      "file_count": 3257,
       "html_url": "https://github.com/Ventusltd/globalgrid2050",
       "important_files": [
         {
@@ -1558,6 +1558,30 @@
           "type": "workflow"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/major_project_news_v4.yml",
+          "path": ".github/workflows/major_project_news_v4.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/major_project_news_v4.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/major_project_news_v5.yml",
+          "path": ".github/workflows/major_project_news_v5.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/major_project_news_v5.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/major_project_news_v6.yml",
+          "path": ".github/workflows/major_project_news_v6.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/major_project_news_v6.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/modularise_solar_er.yml",
           "path": ".github/workflows/modularise_solar_er.yml",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/modularise_solar_er.yml",
@@ -1753,6 +1777,14 @@
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/repair_public_grid_study_selector_binding.yml",
           "path": ".github/workflows/repair_public_grid_study_selector_binding.yml",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/repair_public_grid_study_selector_binding.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/repair_v5_news_loader.yml",
+          "path": ".github/workflows/repair_v5_news_loader.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/repair_v5_news_loader.yml",
           "role": "automation workflow",
           "state": "verified",
           "type": "workflow"
@@ -2286,6 +2318,54 @@
           "type": "workflow"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v7-north-star.yml",
+          "path": ".github/workflows/v7-north-star.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v7-north-star.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-3-validate.yml",
+          "path": ".github/workflows/v9-3-validate.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-3-validate.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-4-validate.yml",
+          "path": ".github/workflows/v9-4-validate.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-4-validate.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-5-1-validate.yml",
+          "path": ".github/workflows/v9-5-1-validate.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-5-1-validate.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-5-validate.yml",
+          "path": ".github/workflows/v9-5-validate.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-5-validate.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-6-validate.yml",
+          "path": ".github/workflows/v9-6-validate.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-6-validate.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/wire_generation_ecg_candidate.yml",
           "path": ".github/workflows/wire_generation_ecg_candidate.yml",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/wire_generation_ecg_candidate.yml",
@@ -2726,6 +2806,174 @@
           "type": "document"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v7/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v7/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v7/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v7/index.html",
+          "path": "uk_renewables_pipeline/v7/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v7/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v7/README.md",
+          "path": "uk_renewables_pipeline/v7/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v7/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v8/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v8/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v8/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v8/index.html",
+          "path": "uk_renewables_pipeline/v8/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v8/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v8/README.md",
+          "path": "uk_renewables_pipeline/v8/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v8/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.4/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v9.4/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.4/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.4/index.html",
+          "path": "uk_renewables_pipeline/v9.4/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.4/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.4/README.md",
+          "path": "uk_renewables_pipeline/v9.4/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.4/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.5.1/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v9.5.1/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.5.1/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.5.1/index.html",
+          "path": "uk_renewables_pipeline/v9.5.1/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.5.1/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.5.1/README.md",
+          "path": "uk_renewables_pipeline/v9.5.1/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.5.1/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.5/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v9.5/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.5/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.5/index.html",
+          "path": "uk_renewables_pipeline/v9.5/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.5/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.5/README.md",
+          "path": "uk_renewables_pipeline/v9.5/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.5/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v9.6/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6/index.html",
+          "path": "uk_renewables_pipeline/v9.6/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6/README.md",
+          "path": "uk_renewables_pipeline/v9.6/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v9/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9/index.html",
+          "path": "uk_renewables_pipeline/v9/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9/README.md",
+          "path": "uk_renewables_pipeline/v9/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/v11/index.html",
           "path": "v11/index.html",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/v11/index.html",
@@ -2838,7 +3086,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 40,
+      "file_count": 42,
       "html_url": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
       "important_files": [
         {
@@ -3131,10 +3379,10 @@
     }
   ],
   "schema_version": "globalgrid2050.kernel_boot.v1",
-  "source_registry": "registry/registry_v0016.json",
+  "source_registry": "registry/registry_v0017.json",
   "totals": {
-    "file_count": 4465,
-    "reachable_count": 4465,
+    "file_count": 5489,
+    "reachable_count": 5489,
     "repo_count": 14,
     "unreachable_count": 0
   }
