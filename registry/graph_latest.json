@@ -5,9 +5,9 @@
     "width": 4200
   },
   "dataSource": {
-    "generatedAt": "2026-08-24T06:31:02Z",
-    "jsonPath": "registry/registry_v0017.json",
-    "registryVersion": 17,
+    "generatedAt": "2026-08-31T11:56:54Z",
+    "jsonPath": "registry/registry_v0018.json",
+    "registryVersion": 18,
     "repo": "Ventusltd/registry_of_all_content_in_repos_and_dependencies"
   },
   "edgeTypes": {
@@ -198,47 +198,47 @@
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v4-detailed-disclaimer.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608300232-sync-promoted-gridatlas-v9.yml",
       "type": "reference"
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v6-v7-all-apps-a4-print-formatting.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608300310-sync-current-gridatlas-v9.yml",
       "type": "reference"
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v6-v7-external-analysis-dashboard-links.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608301102-repair-atlas-v9-catalogue-sync.yml",
       "type": "reference"
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v6-v7-gis-sld-operating-asset-layers.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608301102-repair-gridatlas-homepage-anchor.yml",
       "type": "reference"
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v6-v7-gis-sld-print-formatting.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608301110-repair-gridatlas-homepage-anchor-v2.yml",
       "type": "reference"
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v6-v7-gis-sld-print-map-pack.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608301115-dispatch-gridatlas-sync.yml",
       "type": "reference"
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v6-v7-print-v2-compact-report-mode.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608301115-repair-atlas-v9-catalogue-sync-v2.yml",
       "type": "reference"
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v6-v7-print-v3-financials-patch.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608301140-repair-gridatlas-homepage-idempotence.yml",
       "type": "reference"
     },
     {
       "from": "repo::globalgrid2050",
-      "to": "file::globalgrid2050::.github/workflows/add-v7-gis-sld-array-visibility-and-mwp-sizing.yml",
+      "to": "file::globalgrid2050::.github/workflows/202608301159-repair-gridatlas-homepage-and-cartridge.yml",
       "type": "reference"
     },
     {
@@ -823,7 +823,7 @@
       "label": "globalgrid2050",
       "layer": "apps",
       "source": "https://github.com/Ventusltd/globalgrid2050",
-      "subtitle": "3257 files \u00b7 main",
+      "subtitle": "3858 files \u00b7 main",
       "x": 2380,
       "y": 300
     },
@@ -838,91 +838,91 @@
       "y": 1180
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v4-detailed-disclaimer.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608300232-sync-promoted-gridatlas-v9.yml",
       "kind": "schema",
-      "label": "add-v4-detailed-disclaimer.y",
+      "label": "202608300232-sync-promoted-g",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v4-detailed-disclaimer.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608300232-sync-promoted-gridatlas-v9.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 1300
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v6-v7-all-apps-a4-print-formatting.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608300310-sync-current-gridatlas-v9.yml",
       "kind": "schema",
-      "label": "add-v6-v7-all-apps-a4-print-",
+      "label": "202608300310-sync-current-gr",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-all-apps-a4-print-formatting.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608300310-sync-current-gridatlas-v9.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 1420
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v6-v7-external-analysis-dashboard-links.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608301102-repair-atlas-v9-catalogue-sync.yml",
       "kind": "schema",
-      "label": "add-v6-v7-external-analysis-",
+      "label": "202608301102-repair-atlas-v9",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-external-analysis-dashboard-links.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301102-repair-atlas-v9-catalogue-sync.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 1540
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v6-v7-gis-sld-operating-asset-layers.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608301102-repair-gridatlas-homepage-anchor.yml",
       "kind": "schema",
-      "label": "add-v6-v7-gis-sld-operating-",
+      "label": "202608301102-repair-gridatla",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-gis-sld-operating-asset-layers.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301102-repair-gridatlas-homepage-anchor.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 1660
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v6-v7-gis-sld-print-formatting.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608301110-repair-gridatlas-homepage-anchor-v2.yml",
       "kind": "schema",
-      "label": "add-v6-v7-gis-sld-print-form",
+      "label": "202608301110-repair-gridatla",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-gis-sld-print-formatting.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301110-repair-gridatlas-homepage-anchor-v2.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 1780
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v6-v7-gis-sld-print-map-pack.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608301115-dispatch-gridatlas-sync.yml",
       "kind": "schema",
-      "label": "add-v6-v7-gis-sld-print-map-",
+      "label": "202608301115-dispatch-gridat",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-gis-sld-print-map-pack.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301115-dispatch-gridatlas-sync.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 1900
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v6-v7-print-v2-compact-report-mode.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608301115-repair-atlas-v9-catalogue-sync-v2.yml",
       "kind": "schema",
-      "label": "add-v6-v7-print-v2-compact-r",
+      "label": "202608301115-repair-atlas-v9",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-print-v2-compact-report-mode.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301115-repair-atlas-v9-catalogue-sync-v2.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 2020
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v6-v7-print-v3-financials-patch.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608301140-repair-gridatlas-homepage-idempotence.yml",
       "kind": "schema",
-      "label": "add-v6-v7-print-v3-financial",
+      "label": "202608301140-repair-gridatla",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v6-v7-print-v3-financials-patch.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301140-repair-gridatlas-homepage-idempotence.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 2140
     },
     {
-      "id": "file::globalgrid2050::.github/workflows/add-v7-gis-sld-array-visibility-and-mwp-sizing.yml",
+      "id": "file::globalgrid2050::.github/workflows/202608301159-repair-gridatlas-homepage-and-cartridge.yml",
       "kind": "schema",
-      "label": "add-v7-gis-sld-array-visibil",
+      "label": "202608301159-repair-gridatla",
       "layer": "schemas",
-      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/add-v7-gis-sld-array-visibility-and-mwp-sizing.yml",
+      "source": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301159-repair-gridatlas-homepage-and-cartridge.yml",
       "subtitle": "automation workflow",
       "x": 2380,
       "y": 2260
@@ -1053,7 +1053,7 @@
       "label": "registry_of_all_content_in_repos_and_dependencies",
       "layer": "data",
       "source": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
-      "subtitle": "42 files \u00b7 main",
+      "subtitle": "44 files \u00b7 main",
       "x": 4060,
       "y": 300
     },

@@ -56,8 +56,8 @@
       "repo": "spiders"
     }
   ],
-  "generated_at": "2026-08-24T06:31:02Z",
-  "registry_version": 17,
+  "generated_at": "2026-08-31T11:56:54Z",
+  "registry_version": 18,
   "repos": [
     {
       "default_branch": "main",
@@ -546,13 +546,85 @@
     },
     {
       "default_branch": "main",
-      "file_count": 3257,
+      "file_count": 3858,
       "html_url": "https://github.com/Ventusltd/globalgrid2050",
       "important_files": [
         {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/000_freeze_all_workflows_to_manual.yml",
           "path": ".github/workflows/000_freeze_all_workflows_to_manual.yml",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/000_freeze_all_workflows_to_manual.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608300232-sync-promoted-gridatlas-v9.yml",
+          "path": ".github/workflows/202608300232-sync-promoted-gridatlas-v9.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608300232-sync-promoted-gridatlas-v9.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608300310-sync-current-gridatlas-v9.yml",
+          "path": ".github/workflows/202608300310-sync-current-gridatlas-v9.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608300310-sync-current-gridatlas-v9.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301102-repair-atlas-v9-catalogue-sync.yml",
+          "path": ".github/workflows/202608301102-repair-atlas-v9-catalogue-sync.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608301102-repair-atlas-v9-catalogue-sync.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301102-repair-gridatlas-homepage-anchor.yml",
+          "path": ".github/workflows/202608301102-repair-gridatlas-homepage-anchor.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608301102-repair-gridatlas-homepage-anchor.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301110-repair-gridatlas-homepage-anchor-v2.yml",
+          "path": ".github/workflows/202608301110-repair-gridatlas-homepage-anchor-v2.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608301110-repair-gridatlas-homepage-anchor-v2.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301115-dispatch-gridatlas-sync.yml",
+          "path": ".github/workflows/202608301115-dispatch-gridatlas-sync.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608301115-dispatch-gridatlas-sync.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301115-repair-atlas-v9-catalogue-sync-v2.yml",
+          "path": ".github/workflows/202608301115-repair-atlas-v9-catalogue-sync-v2.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608301115-repair-atlas-v9-catalogue-sync-v2.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301140-repair-gridatlas-homepage-idempotence.yml",
+          "path": ".github/workflows/202608301140-repair-gridatlas-homepage-idempotence.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608301140-repair-gridatlas-homepage-idempotence.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/202608301159-repair-gridatlas-homepage-and-cartridge.yml",
+          "path": ".github/workflows/202608301159-repair-gridatlas-homepage-and-cartridge.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/202608301159-repair-gridatlas-homepage-and-cartridge.yml",
           "role": "automation workflow",
           "state": "verified",
           "type": "workflow"
@@ -761,6 +833,14 @@
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/build_generation_fuelhh_browser_slim.yml",
           "path": ".github/workflows/build_generation_fuelhh_browser_slim.yml",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/build_generation_fuelhh_browser_slim.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/catalogue-gridatlas-v9.yml",
+          "path": ".github/workflows/catalogue-gridatlas-v9.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/catalogue-gridatlas-v9.yml",
           "role": "automation workflow",
           "state": "verified",
           "type": "workflow"
@@ -2358,9 +2438,33 @@
           "type": "workflow"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-6-1-validate.yml",
+          "path": ".github/workflows/v9-6-1-validate.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-6-1-validate.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-6-2-validate.yml",
+          "path": ".github/workflows/v9-6-2-validate.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-6-2-validate.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-6-validate.yml",
           "path": ".github/workflows/v9-6-validate.yml",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-6-validate.yml",
+          "role": "automation workflow",
+          "state": "verified",
+          "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/.github/workflows/v9-7-validate.yml",
+          "path": ".github/workflows/v9-7-validate.yml",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/.github/workflows/v9-7-validate.yml",
           "role": "automation workflow",
           "state": "verified",
           "type": "workflow"
@@ -2372,6 +2476,14 @@
           "role": "automation workflow",
           "state": "verified",
           "type": "workflow"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/202608300453-atlas-v9/index.html",
+          "path": "202608300453-atlas-v9/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/202608300453-atlas-v9/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
         },
         {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/ARCHITECTURE.md",
@@ -2425,6 +2537,14 @@
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/employers_requirments_large_scale_solar/print/index.html",
           "path": "employers_requirments_large_scale_solar/print/index.html",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/employers_requirments_large_scale_solar/print/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/homepage_versions/202608291526-globalgrid2050/index.html",
+          "path": "homepage_versions/202608291526-globalgrid2050/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/homepage_versions/202608291526-globalgrid2050/index.html",
           "role": "web entry point",
           "state": "verified",
           "type": "web"
@@ -2926,6 +3046,54 @@
           "type": "document"
         },
         {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6.1/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v9.6.1/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6.1/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6.1/index.html",
+          "path": "uk_renewables_pipeline/v9.6.1/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6.1/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6.1/README.md",
+          "path": "uk_renewables_pipeline/v9.6.1/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6.1/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6.2/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v9.6.2/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6.2/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6.2/index.html",
+          "path": "uk_renewables_pipeline/v9.6.2/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6.2/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6.2/README.md",
+          "path": "uk_renewables_pipeline/v9.6.2/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6.2/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6/fixtures/README.md",
           "path": "uk_renewables_pipeline/v9.6/fixtures/README.md",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6/fixtures/README.md",
@@ -2945,6 +3113,30 @@
           "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.6/README.md",
           "path": "uk_renewables_pipeline/v9.6/README.md",
           "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.6/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.7/fixtures/README.md",
+          "path": "uk_renewables_pipeline/v9.7/fixtures/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.7/fixtures/README.md",
+          "role": "human entry point",
+          "state": "verified",
+          "type": "document"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.7/index.html",
+          "path": "uk_renewables_pipeline/v9.7/index.html",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.7/index.html",
+          "role": "web entry point",
+          "state": "verified",
+          "type": "web"
+        },
+        {
+          "github_url": "https://github.com/Ventusltd/globalgrid2050/blob/main/uk_renewables_pipeline/v9.7/README.md",
+          "path": "uk_renewables_pipeline/v9.7/README.md",
+          "raw_url": "https://raw.githubusercontent.com/Ventusltd/globalgrid2050/main/uk_renewables_pipeline/v9.7/README.md",
           "role": "human entry point",
           "state": "verified",
           "type": "document"
@@ -3086,7 +3278,7 @@
     },
     {
       "default_branch": "main",
-      "file_count": 42,
+      "file_count": 44,
       "html_url": "https://github.com/Ventusltd/registry_of_all_content_in_repos_and_dependencies",
       "important_files": [
         {
@@ -3379,10 +3571,10 @@
     }
   ],
   "schema_version": "globalgrid2050.kernel_boot.v1",
-  "source_registry": "registry/registry_v0017.json",
+  "source_registry": "registry/registry_v0018.json",
   "totals": {
-    "file_count": 5489,
-    "reachable_count": 5489,
+    "file_count": 6092,
+    "reachable_count": 6092,
     "repo_count": 14,
     "unreachable_count": 0
   }
